@@ -1,0 +1,2480 @@
+{  
+   "nodes":[  
+      {  
+         "name":" 23 year old",
+         "group":10,
+         "id":"T1",
+         "type":"Age"
+      },
+      {  
+         "name":" white",
+         "group":25,
+         "id":"T2",
+         "type":"Ethnicity"
+      },
+      {  
+         "name":" male",
+         "group":6,
+         "id":"T3",
+         "type":"Gender"
+      },
+      {  
+         "name":" 4 year history of Crohn's disease",
+         "group":13,
+         "id":"T4",
+         "type":"History"
+      },
+      {  
+         "name":" Crohn's disease",
+         "group":34,
+         "id":"T5",
+         "type":"Disease_disorder"
+      },
+      {  
+         "name":" 4 year",
+         "group":35,
+         "id":"T6",
+         "type":"Duration"
+      },
+      {  
+         "name":" malaise",
+         "group":11,
+         "id":"T7",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" fever",
+         "group":11,
+         "id":"T8",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" pain",
+         "group":11,
+         "id":"T9",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" abdominal",
+         "group":7,
+         "id":"T10",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" vomiting",
+         "group":11,
+         "id":"T11",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" stomal",
+         "group":7,
+         "id":"T12",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" diarrhoea",
+         "group":11,
+         "id":"T13",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" two day",
+         "group":35,
+         "id":"T14",
+         "type":"Duration"
+      },
+      {  
+         "name":" pains",
+         "group":11,
+         "id":"T15",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" joint",
+         "group":7,
+         "id":"T16",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" shoulders",
+         "group":7,
+         "id":"T17",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" elbows",
+         "group":7,
+         "id":"T18",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" wrists",
+         "group":7,
+         "id":"T19",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" metacarpophalangeals",
+         "group":7,
+         "id":"T20",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" knees",
+         "group":7,
+         "id":"T21",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" ankles",
+         "group":7,
+         "id":"T22",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" rash",
+         "group":11,
+         "id":"T23",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" elbows",
+         "group":7,
+         "id":"T24",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" ankles",
+         "group":7,
+         "id":"T25",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" feet",
+         "group":7,
+         "id":"T26",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" macules",
+         "group":11,
+         "id":"T27",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" erythematous",
+         "group":27,
+         "id":"T28",
+         "type":"Detailed_description"
+      },
+      {  
+         "name":" lesions",
+         "group":11,
+         "id":"T29",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" crusting",
+         "group":11,
+         "id":"T30",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" vesico-pustular",
+         "group":27,
+         "id":"T31",
+         "type":"Detailed_description"
+      },
+      {  
+         "name":" no history of sexual exposure",
+         "group":13,
+         "id":"T32",
+         "type":"History"
+      },
+      {  
+         "name":" infection",
+         "group":11,
+         "id":"T33",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" no regular medication",
+         "group":37,
+         "id":"T34",
+         "type":"Medication"
+      },
+      {  
+         "name":" Pentasa",
+         "group":37,
+         "id":"T35",
+         "type":"Medication"
+      },
+      {  
+         "name":" 4 months earlier",
+         "group":12,
+         "id":"T36",
+         "type":"Date"
+      },
+      {  
+         "name":" One month earlier",
+         "group":12,
+         "id":"T37",
+         "type":"Date"
+      },
+      {  
+         "name":" laparotomy",
+         "group":33,
+         "id":"T38",
+         "type":"Therapeutic_procedure"
+      },
+      {  
+         "name":" fistula",
+         "group":11,
+         "id":"T39",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" ileo-cutaneous",
+         "group":27,
+         "id":"T40",
+         "type":"Detailed_description"
+      },
+      {  
+         "name":" complex",
+         "group":27,
+         "id":"T41",
+         "type":"Detailed_description"
+      },
+      {  
+         "name":" blind tracts",
+         "group":27,
+         "id":"T42",
+         "type":"Detailed_description"
+      },
+      {  
+         "name":" two weeks earlier",
+         "group":12,
+         "id":"T43",
+         "type":"Date"
+      },
+      {  
+         "name":" ileostomy",
+         "group":33,
+         "id":"T44",
+         "type":"Therapeutic_procedure"
+      },
+      {  
+         "name":" defunctioning",
+         "group":27,
+         "id":"T45",
+         "type":"Detailed_description"
+      },
+      {  
+         "name":" pain",
+         "group":11,
+         "id":"T46",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" abdominal",
+         "group":7,
+         "id":"T47",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" persistent",
+         "group":27,
+         "id":"T48",
+         "type":"Detailed_description"
+      },
+      {  
+         "name":" cutaneous",
+         "group":7,
+         "id":"T50",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" had been present for a year",
+         "group":35,
+         "id":"T51",
+         "type":"Duration"
+      },
+      {  
+         "name":" of at least 2 years duration",
+         "group":35,
+         "id":"T52",
+         "type":"Duration"
+      },
+      {  
+         "name":" fistula",
+         "group":11,
+         "id":"T53",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" stricture",
+         "group":11,
+         "id":"T54",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" ileal",
+         "group":7,
+         "id":"T55",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" terminal",
+         "group":27,
+         "id":"T56",
+         "type":"Detailed_description"
+      },
+      {  
+         "name":" ileo-rectal",
+         "group":7,
+         "id":"T57",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" bowel disease",
+         "group":1,
+         "id":"T58",
+         "type":"Coreference"
+      },
+      {  
+         "name":" azathioprine",
+         "group":37,
+         "id":"T59",
+         "type":"Medication"
+      },
+      {  
+         "name":" corticosteroiods",
+         "group":37,
+         "id":"T60",
+         "type":"Medication"
+      },
+      {  
+         "name":" Infliximab",
+         "group":37,
+         "id":"T61",
+         "type":"Medication"
+      },
+      {  
+         "name":" a year earlier",
+         "group":12,
+         "id":"T62",
+         "type":"Date"
+      },
+      {  
+         "name":" three infusions",
+         "group":24,
+         "id":"T63",
+         "type":"Dosage"
+      },
+      {  
+         "name":" no extra-intestinal manifestations",
+         "group":11,
+         "id":"T64",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" admission",
+         "group":22,
+         "id":"T65",
+         "type":"Activity"
+      },
+      {  
+         "name":" hospital",
+         "group":17,
+         "id":"T66",
+         "type":"Nonbiological_location"
+      },
+      {  
+         "name":" thin",
+         "group":11,
+         "id":"T67",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" afebrile",
+         "group":11,
+         "id":"T68",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" tachycardia",
+         "group":11,
+         "id":"T69",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" resting",
+         "group":27,
+         "id":"T70",
+         "type":"Detailed_description"
+      },
+      {  
+         "name":" 125/minute",
+         "group":16,
+         "id":"T71",
+         "type":"Lab_value"
+      },
+      {  
+         "name":" cardio-respiratory examination",
+         "group":38,
+         "id":"T72",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" abdomen",
+         "group":7,
+         "id":"T74",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" tender",
+         "group":11,
+         "id":"T75",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" minimally",
+         "group":2,
+         "id":"T76",
+         "type":"Severity"
+      },
+      {  
+         "name":" ileostomy",
+         "group":7,
+         "id":"T77",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" Examination of the skin",
+         "group":38,
+         "id":"T80",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" pustules",
+         "group":11,
+         "id":"T81",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" crusts",
+         "group":11,
+         "id":"T82",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" elbows",
+         "group":7,
+         "id":"T83",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" ankles",
+         "group":7,
+         "id":"T84",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" feet",
+         "group":7,
+         "id":"T85",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" synovitis",
+         "group":11,
+         "id":"T86",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" wrists",
+         "group":7,
+         "id":"T87",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" The buttocks were spared.",
+         "group":4,
+         "id":"T88",
+         "type":"Other_event"
+      },
+      {  
+         "name":" proximal interphalangeal",
+         "group":7,
+         "id":"T89",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" metacarpophalangeal",
+         "group":7,
+         "id":"T90",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" joints",
+         "group":7,
+         "id":"T91",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" both ankles",
+         "group":7,
+         "id":"T92",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" laboratory tests",
+         "group":38,
+         "id":"T93",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" haemoglobin",
+         "group":38,
+         "id":"T94",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" white blood count",
+         "group":38,
+         "id":"T95",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" platelets",
+         "group":38,
+         "id":"T96",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" C- reactive protein",
+         "group":38,
+         "id":"T97",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" erythrocyte sedimentation rate",
+         "group":38,
+         "id":"T98",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" 13.1 gm/dl",
+         "group":16,
+         "id":"T99",
+         "type":"Lab_value"
+      },
+      {  
+         "name":" 15.8 \u00d7 109/L",
+         "group":16,
+         "id":"T100",
+         "type":"Lab_value"
+      },
+      {  
+         "name":" 585 \u00d7 109/L",
+         "group":16,
+         "id":"T101",
+         "type":"Lab_value"
+      },
+      {  
+         "name":" 37.7 mg/L",
+         "group":16,
+         "id":"T102",
+         "type":"Lab_value"
+      },
+      {  
+         "name":" 69 mm/hr",
+         "group":16,
+         "id":"T103",
+         "type":"Lab_value"
+      },
+      {  
+         "name":" Urea",
+         "group":38,
+         "id":"T104",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" electrolytes",
+         "group":38,
+         "id":"T105",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" complement",
+         "group":38,
+         "id":"T106",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" urine analysis",
+         "group":38,
+         "id":"T107",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" microscopy",
+         "group":38,
+         "id":"T108",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" negative",
+         "group":28,
+         "id":"T110",
+         "type":"Qualitative_concept"
+      },
+      {  
+         "name":" Rheumatoid factor",
+         "group":38,
+         "id":"T111",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" echocardiogram",
+         "group":38,
+         "id":"T113",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" Transthoracic",
+         "group":7,
+         "id":"T114",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" no signs of endocarditis",
+         "group":11,
+         "id":"T115",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" multiple blood cultures",
+         "group":38,
+         "id":"T116",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" sterile",
+         "group":28,
+         "id":"T117",
+         "type":"Qualitative_concept"
+      },
+      {  
+         "name":" biopsy",
+         "group":38,
+         "id":"T118",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" skin",
+         "group":7,
+         "id":"T119",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" perivascular",
+         "group":7,
+         "id":"T120",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" lymphohistiocytic",
+         "group":7,
+         "id":"T121",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" vasculitis",
+         "group":34,
+         "id":"T122",
+         "type":"Disease_disorder"
+      },
+      {  
+         "name":" leukocytoclastic",
+         "group":27,
+         "id":"T123",
+         "type":"Detailed_description"
+      },
+      {  
+         "name":" infiltrate",
+         "group":7,
+         "id":"T124",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" neutrophils",
+         "group":7,
+         "id":"T125",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" necrosis",
+         "group":11,
+         "id":"T126",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" fibrinoid",
+         "group":27,
+         "id":"T127",
+         "type":"Detailed_description"
+      },
+      {  
+         "name":" vessels",
+         "group":7,
+         "id":"T128",
+         "type":"Biological_structure"
+      },
+      {  
+         "name":" prednisolone",
+         "group":37,
+         "id":"T129",
+         "type":"Medication"
+      },
+      {  
+         "name":" 60 mg",
+         "group":24,
+         "id":"T130",
+         "type":"Dosage"
+      },
+      {  
+         "name":" per day",
+         "group":24,
+         "id":"T131",
+         "type":"Dosage"
+      },
+      {  
+         "name":" resolution of all features",
+         "group":11,
+         "id":"T132",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" complete",
+         "group":27,
+         "id":"T133",
+         "type":"Detailed_description"
+      },
+      {  
+         "name":" prompt",
+         "group":27,
+         "id":"T134",
+         "type":"Detailed_description"
+      },
+      {  
+         "name":" prednisolone",
+         "group":37,
+         "id":"T135",
+         "type":"Medication"
+      },
+      {  
+         "name":" over the following 3 years",
+         "group":35,
+         "id":"T136",
+         "type":"Duration"
+      },
+      {  
+         "name":" without any recurrence",
+         "group":11,
+         "id":"T137",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" over the course of one month",
+         "group":35,
+         "id":"T138",
+         "type":"Duration"
+      },
+      {  
+         "name":" tapered",
+         "group":22,
+         "id":"T139",
+         "type":"Activity"
+      },
+      {  
+         "name":" cytoplasmic antibodies",
+         "group":38,
+         "id":"T112",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" antineutrophil",
+         "group":27,
+         "id":"T140",
+         "type":"Detailed_description"
+      },
+      {  
+         "name":" antinuclear",
+         "group":27,
+         "id":"T141",
+         "type":"Detailed_description"
+      },
+      {  
+         "name":" cryoglobulins",
+         "group":38,
+         "id":"T142",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" Hepatitis B and C serology",
+         "group":38,
+         "id":"T143",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" presented",
+         "group":22,
+         "id":"T144",
+         "type":"Activity"
+      },
+      {  
+         "name":" fistula",
+         "group":11,
+         "id":"T49",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" normal",
+         "group":28,
+         "id":"T73",
+         "type":"Qualitative_concept"
+      },
+      {  
+         "name":" without guarding",
+         "group":27,
+         "id":"T78",
+         "type":"Detailed_description"
+      },
+      {  
+         "name":" 1404 without rebound tenderness",
+         "group":27,
+         "id":"T79",
+         "type":"Detailed_description"
+      },
+      {  
+         "name":" normal",
+         "group":28,
+         "id":"T109",
+         "type":"Qualitative_concept"
+      },
+      {  
+         "name":" Crohn's disease",
+         "group":34,
+         "id":"E1",
+         "type":"Disease_disorder"
+      },
+      {  
+         "name":" 4 year",
+         "group":35,
+         "id":"E2",
+         "type":"Duration"
+      },
+      {  
+         "name":" malaise",
+         "group":11,
+         "id":"E3",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" fever",
+         "group":11,
+         "id":"E4",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" pain",
+         "group":11,
+         "id":"E5",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" vomiting",
+         "group":11,
+         "id":"E6",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" diarrhoea",
+         "group":11,
+         "id":"E7",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" two day",
+         "group":35,
+         "id":"E8",
+         "type":"Duration"
+      },
+      {  
+         "name":" pains",
+         "group":11,
+         "id":"E9",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" rash",
+         "group":11,
+         "id":"E10",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" macules",
+         "group":11,
+         "id":"E11",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" lesions",
+         "group":11,
+         "id":"E12",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" crusting",
+         "group":11,
+         "id":"E13",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" infection",
+         "group":11,
+         "id":"E14",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" no regular medication",
+         "group":37,
+         "id":"E15",
+         "type":"Medication"
+      },
+      {  
+         "name":" Pentasa",
+         "group":37,
+         "id":"E16",
+         "type":"Medication"
+      },
+      {  
+         "name":" 4 months earlier",
+         "group":12,
+         "id":"E17",
+         "type":"Date"
+      },
+      {  
+         "name":" One month earlier",
+         "group":12,
+         "id":"E18",
+         "type":"Date"
+      },
+      {  
+         "name":" laparotomy",
+         "group":33,
+         "id":"E19",
+         "type":"Therapeutic_procedure"
+      },
+      {  
+         "name":" fistula",
+         "group":11,
+         "id":"E20",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" two weeks earlier",
+         "group":12,
+         "id":"E21",
+         "type":"Date"
+      },
+      {  
+         "name":" ileostomy",
+         "group":33,
+         "id":"E22",
+         "type":"Therapeutic_procedure"
+      },
+      {  
+         "name":" pain",
+         "group":11,
+         "id":"E23",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" had been present for a year",
+         "group":35,
+         "id":"E24",
+         "type":"Duration"
+      },
+      {  
+         "name":" of at least 2 years duration",
+         "group":35,
+         "id":"E25",
+         "type":"Duration"
+      },
+      {  
+         "name":" fistula",
+         "group":11,
+         "id":"E26",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" stricture",
+         "group":11,
+         "id":"E27",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" bowel disease",
+         "group":1,
+         "id":"E28",
+         "type":"Coreference"
+      },
+      {  
+         "name":" azathioprine",
+         "group":37,
+         "id":"E29",
+         "type":"Medication"
+      },
+      {  
+         "name":" corticosteroiods",
+         "group":37,
+         "id":"E30",
+         "type":"Medication"
+      },
+      {  
+         "name":" Infliximab",
+         "group":37,
+         "id":"E31",
+         "type":"Medication"
+      },
+      {  
+         "name":" a year earlier",
+         "group":12,
+         "id":"E32",
+         "type":"Date"
+      },
+      {  
+         "name":" no extra-intestinal manifestations",
+         "group":11,
+         "id":"E33",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" admission",
+         "group":22,
+         "id":"E34",
+         "type":"Activity"
+      },
+      {  
+         "name":" thin",
+         "group":11,
+         "id":"E35",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" afebrile",
+         "group":11,
+         "id":"E36",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" tachycardia",
+         "group":11,
+         "id":"E37",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" cardio-respiratory examination",
+         "group":38,
+         "id":"E38",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" tender",
+         "group":11,
+         "id":"E40",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" Examination of the skin",
+         "group":38,
+         "id":"E43",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" pustules",
+         "group":11,
+         "id":"E44",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" crusts",
+         "group":11,
+         "id":"E45",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" synovitis",
+         "group":11,
+         "id":"E46",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" The buttocks were spared.",
+         "group":4,
+         "id":"E47",
+         "type":"Other_event"
+      },
+      {  
+         "name":" laboratory tests",
+         "group":38,
+         "id":"E48",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" haemoglobin",
+         "group":38,
+         "id":"E49",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" white blood count",
+         "group":38,
+         "id":"E50",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" platelets",
+         "group":38,
+         "id":"E51",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" C- reactive protein",
+         "group":38,
+         "id":"E52",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" erythrocyte sedimentation rate",
+         "group":38,
+         "id":"E53",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" Urea",
+         "group":38,
+         "id":"E54",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" electrolytes",
+         "group":38,
+         "id":"E55",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" complement",
+         "group":38,
+         "id":"E56",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" urine analysis",
+         "group":38,
+         "id":"E57",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" microscopy",
+         "group":38,
+         "id":"E58",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" Rheumatoid factor",
+         "group":38,
+         "id":"E60",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" echocardiogram",
+         "group":38,
+         "id":"E62",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" no signs of endocarditis",
+         "group":11,
+         "id":"E63",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" multiple blood cultures",
+         "group":38,
+         "id":"E64",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" biopsy",
+         "group":38,
+         "id":"E65",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" vasculitis",
+         "group":34,
+         "id":"E66",
+         "type":"Disease_disorder"
+      },
+      {  
+         "name":" necrosis",
+         "group":11,
+         "id":"E67",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" prednisolone",
+         "group":37,
+         "id":"E68",
+         "type":"Medication"
+      },
+      {  
+         "name":" resolution of all features",
+         "group":11,
+         "id":"E69",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" prednisolone",
+         "group":37,
+         "id":"E70",
+         "type":"Medication"
+      },
+      {  
+         "name":" over the following 3 years",
+         "group":35,
+         "id":"E71",
+         "type":"Duration"
+      },
+      {  
+         "name":" without any recurrence",
+         "group":11,
+         "id":"E72",
+         "type":"Sign_symptom"
+      },
+      {  
+         "name":" over the course of one month",
+         "group":35,
+         "id":"E73",
+         "type":"Duration"
+      },
+      {  
+         "name":" tapered",
+         "group":22,
+         "id":"E74",
+         "type":"Activity"
+      },
+      {  
+         "name":" cytoplasmic antibodies",
+         "group":38,
+         "id":"E61",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" cryoglobulins",
+         "group":38,
+         "id":"E75",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" Hepatitis B and C serology",
+         "group":38,
+         "id":"E76",
+         "type":"Diagnostic_procedure"
+      },
+      {  
+         "name":" presented",
+         "group":22,
+         "id":"E77",
+         "type":"Activity"
+      },
+      {  
+         "name":" fistula",
+         "group":11,
+         "id":"E78",
+         "type":"Sign_symptom"
+      }
+   ],
+   "links":[  
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" pain",
+         "source":"T10",
+         "target":"E5",
+         "source_group":7,
+         "id":"R1",
+         "source_name":" abdominal",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" diarrhoea",
+         "source":"T12",
+         "target":"E7",
+         "source_group":7,
+         "id":"R2",
+         "source_name":" stomal",
+         "value":4
+      },
+      {  
+         "target_group":34,
+         "name":"MODIFY",
+         "target_name":" Crohn's disease",
+         "source":"E2",
+         "target":"E1",
+         "source_group":35,
+         "id":"R3",
+         "source_name":" 4 year",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" malaise",
+         "source":"E8",
+         "target":"E3",
+         "source_group":35,
+         "id":"R4",
+         "source_name":" two day",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" fever",
+         "source":"E8",
+         "target":"E4",
+         "source_group":35,
+         "id":"R5",
+         "source_name":" two day",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" pain",
+         "source":"E8",
+         "target":"E5",
+         "source_group":35,
+         "id":"R6",
+         "source_name":" two day",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" vomiting",
+         "source":"E8",
+         "target":"E6",
+         "source_group":35,
+         "id":"R7",
+         "source_name":" two day",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" diarrhoea",
+         "source":"E8",
+         "target":"E7",
+         "source_group":35,
+         "id":"R8",
+         "source_name":" two day",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" pains",
+         "source":"T16",
+         "target":"E9",
+         "source_group":7,
+         "id":"R9",
+         "source_name":" joint",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" pains",
+         "source":"T17",
+         "target":"E9",
+         "source_group":7,
+         "id":"R10",
+         "source_name":" shoulders",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" pains",
+         "source":"T18",
+         "target":"E9",
+         "source_group":7,
+         "id":"R11",
+         "source_name":" elbows",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" pains",
+         "source":"T19",
+         "target":"E9",
+         "source_group":7,
+         "id":"R12",
+         "source_name":" wrists",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" pains",
+         "source":"T20",
+         "target":"E9",
+         "source_group":7,
+         "id":"R13",
+         "source_name":" metacarpophalangeals",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" pains",
+         "source":"T21",
+         "target":"E9",
+         "source_group":7,
+         "id":"R14",
+         "source_name":" knees",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" pains",
+         "source":"T22",
+         "target":"E9",
+         "source_group":7,
+         "id":"R15",
+         "source_name":" ankles",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" rash",
+         "source":"T24",
+         "target":"E10",
+         "source_group":7,
+         "id":"R16",
+         "source_name":" elbows",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" rash",
+         "source":"T25",
+         "target":"E10",
+         "source_group":7,
+         "id":"R17",
+         "source_name":" ankles",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" rash",
+         "source":"T26",
+         "target":"E10",
+         "source_group":7,
+         "id":"R18",
+         "source_name":" feet",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" macules",
+         "source":"T28",
+         "target":"E11",
+         "source_group":27,
+         "id":"R19",
+         "source_name":" erythematous",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" lesions",
+         "source":"T31",
+         "target":"E12",
+         "source_group":27,
+         "id":"R20",
+         "source_name":" vesico-pustular",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" fistula",
+         "source":"T40",
+         "target":"E20",
+         "source_group":27,
+         "id":"R21",
+         "source_name":" ileo-cutaneous",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" fistula",
+         "source":"T41",
+         "target":"E20",
+         "source_group":27,
+         "id":"R22",
+         "source_name":" complex",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" fistula",
+         "source":"T42",
+         "target":"E20",
+         "source_group":27,
+         "id":"R23",
+         "source_name":" blind tracts",
+         "value":4
+      },
+      {  
+         "target_group":33,
+         "name":"MODIFY",
+         "target_name":" ileostomy",
+         "source":"T45",
+         "target":"E22",
+         "source_group":27,
+         "id":"R24",
+         "source_name":" defunctioning",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" pain",
+         "source":"T47",
+         "target":"E23",
+         "source_group":7,
+         "id":"R25",
+         "source_name":" abdominal",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" pain",
+         "source":"T48",
+         "target":"E23",
+         "source_group":27,
+         "id":"R26",
+         "source_name":" persistent",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" stricture",
+         "source":"T55",
+         "target":"E27",
+         "source_group":7,
+         "id":"R28",
+         "source_name":" ileal",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" stricture",
+         "source":"T56",
+         "target":"E27",
+         "source_group":27,
+         "id":"R29",
+         "source_name":" terminal",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" fistula",
+         "source":"T57",
+         "target":"E26",
+         "source_group":7,
+         "id":"R30",
+         "source_name":" ileo-rectal",
+         "value":4
+      },
+      {  
+         "target_group":34,
+         "name":"IDENTICAL",
+         "target_name":" Crohn's disease",
+         "source":"E28",
+         "target":"E1",
+         "source_group":1,
+         "id":"R31",
+         "source_name":" bowel disease",
+         "value":6
+      },
+      {  
+         "target_group":37,
+         "name":"MODIFY",
+         "target_name":" Infliximab",
+         "source":"T63",
+         "target":"E31",
+         "source_group":24,
+         "id":"R32",
+         "source_name":" three infusions",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" tachycardia",
+         "source":"T70",
+         "target":"E37",
+         "source_group":27,
+         "id":"R33",
+         "source_name":" resting",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" tachycardia",
+         "source":"T71",
+         "target":"E37",
+         "source_group":16,
+         "id":"R34",
+         "source_name":" 125/minute",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" tender",
+         "source":"T76",
+         "target":"E40",
+         "source_group":2,
+         "id":"R35",
+         "source_name":" minimally",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" tender",
+         "source":"T77",
+         "target":"E40",
+         "source_group":7,
+         "id":"R36",
+         "source_name":" ileostomy",
+         "value":4
+      },
+      {  
+         "target_group":7,
+         "name":"MODIFY",
+         "target_name":" joints",
+         "source":"T90",
+         "target":"T91",
+         "source_group":7,
+         "id":"R39",
+         "source_name":" metacarpophalangeal",
+         "value":4
+      },
+      {  
+         "target_group":7,
+         "name":"MODIFY",
+         "target_name":" joints",
+         "source":"T89",
+         "target":"T91",
+         "source_group":7,
+         "id":"R40",
+         "source_name":" proximal interphalangeal",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" synovitis",
+         "source":"T87",
+         "target":"E46",
+         "source_group":7,
+         "id":"R41",
+         "source_name":" wrists",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" synovitis",
+         "source":"T91",
+         "target":"E46",
+         "source_group":7,
+         "id":"R42",
+         "source_name":" joints",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" synovitis",
+         "source":"T92",
+         "target":"E46",
+         "source_group":7,
+         "id":"R43",
+         "source_name":" both ankles",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" erythrocyte sedimentation rate",
+         "source":"T103",
+         "target":"E53",
+         "source_group":16,
+         "id":"R44",
+         "source_name":" 69 mm/hr",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" C- reactive protein",
+         "source":"T102",
+         "target":"E52",
+         "source_group":16,
+         "id":"R45",
+         "source_name":" 37.7 mg/L",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" platelets",
+         "source":"T101",
+         "target":"E51",
+         "source_group":16,
+         "id":"R46",
+         "source_name":" 585 \u00d7 109/L",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" white blood count",
+         "source":"T100",
+         "target":"E50",
+         "source_group":16,
+         "id":"R47",
+         "source_name":" 15.8 \u00d7 109/L",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" haemoglobin",
+         "source":"T99",
+         "target":"E49",
+         "source_group":16,
+         "id":"R48",
+         "source_name":" 13.1 gm/dl",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"SUB_PROCEDURE",
+         "target_name":" laboratory tests",
+         "source":"E49",
+         "target":"E48",
+         "source_group":38,
+         "id":"R49",
+         "source_name":" haemoglobin",
+         "value":5
+      },
+      {  
+         "target_group":38,
+         "name":"SUB_PROCEDURE",
+         "target_name":" laboratory tests",
+         "source":"E50",
+         "target":"E48",
+         "source_group":38,
+         "id":"R50",
+         "source_name":" white blood count",
+         "value":5
+      },
+      {  
+         "target_group":38,
+         "name":"SUB_PROCEDURE",
+         "target_name":" laboratory tests",
+         "source":"E51",
+         "target":"E48",
+         "source_group":38,
+         "id":"R51",
+         "source_name":" platelets",
+         "value":5
+      },
+      {  
+         "target_group":38,
+         "name":"SUB_PROCEDURE",
+         "target_name":" laboratory tests",
+         "source":"E52",
+         "target":"E48",
+         "source_group":38,
+         "id":"R52",
+         "source_name":" C- reactive protein",
+         "value":5
+      },
+      {  
+         "target_group":38,
+         "name":"SUB_PROCEDURE",
+         "target_name":" laboratory tests",
+         "source":"E53",
+         "target":"E48",
+         "source_group":38,
+         "id":"R53",
+         "source_name":" erythrocyte sedimentation rate",
+         "value":5
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" echocardiogram",
+         "source":"T114",
+         "target":"E62",
+         "source_group":7,
+         "id":"R54",
+         "source_name":" Transthoracic",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" multiple blood cultures",
+         "source":"T117",
+         "target":"E64",
+         "source_group":28,
+         "id":"R55",
+         "source_name":" sterile",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" biopsy",
+         "source":"T119",
+         "target":"E65",
+         "source_group":7,
+         "id":"R56",
+         "source_name":" skin",
+         "value":4
+      },
+      {  
+         "target_group":34,
+         "name":"MODIFY",
+         "target_name":" vasculitis",
+         "source":"T123",
+         "target":"E66",
+         "source_group":27,
+         "id":"R57",
+         "source_name":" leukocytoclastic",
+         "value":4
+      },
+      {  
+         "target_group":7,
+         "name":"MODIFY",
+         "target_name":" infiltrate",
+         "source":"T121",
+         "target":"T124",
+         "source_group":7,
+         "id":"R58",
+         "source_name":" lymphohistiocytic",
+         "value":4
+      },
+      {  
+         "target_group":7,
+         "name":"MODIFY",
+         "target_name":" infiltrate",
+         "source":"T120",
+         "target":"T124",
+         "source_group":7,
+         "id":"R59",
+         "source_name":" perivascular",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" necrosis",
+         "source":"T127",
+         "target":"E67",
+         "source_group":27,
+         "id":"R60",
+         "source_name":" fibrinoid",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" necrosis",
+         "source":"T128",
+         "target":"E67",
+         "source_group":7,
+         "id":"R61",
+         "source_name":" vessels",
+         "value":4
+      },
+      {  
+         "target_group":37,
+         "name":"MODIFY",
+         "target_name":" prednisolone",
+         "source":"T130",
+         "target":"E68",
+         "source_group":24,
+         "id":"R62",
+         "source_name":" 60 mg",
+         "value":4
+      },
+      {  
+         "target_group":37,
+         "name":"MODIFY",
+         "target_name":" prednisolone",
+         "source":"T131",
+         "target":"E68",
+         "source_group":24,
+         "id":"R63",
+         "source_name":" per day",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" resolution of all features",
+         "source":"T134",
+         "target":"E69",
+         "source_group":27,
+         "id":"R64",
+         "source_name":" prompt",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" resolution of all features",
+         "source":"T133",
+         "target":"E69",
+         "source_group":27,
+         "id":"R65",
+         "source_name":" complete",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"CAUSE",
+         "target_name":" resolution of all features",
+         "source":"E68",
+         "target":"E69",
+         "source_group":37,
+         "id":"R66",
+         "source_name":" prednisolone",
+         "value":8
+      },
+      {  
+         "target_group":37,
+         "name":"MODIFY",
+         "target_name":" prednisolone",
+         "source":"E74",
+         "target":"E70",
+         "source_group":22,
+         "id":"R67",
+         "source_name":" tapered",
+         "value":4
+      },
+      {  
+         "target_group":22,
+         "name":"MODIFY",
+         "target_name":" tapered",
+         "source":"E73",
+         "target":"E74",
+         "source_group":35,
+         "id":"R68",
+         "source_name":" over the course of one month",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" cytoplasmic antibodies",
+         "source":"T140",
+         "target":"E61",
+         "source_group":27,
+         "id":"R69",
+         "source_name":" antineutrophil",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" cytoplasmic antibodies",
+         "source":"T141",
+         "target":"E61",
+         "source_group":27,
+         "id":"R70",
+         "source_name":" antinuclear",
+         "value":4
+      },
+      {  
+         "target_group":22,
+         "name":"BEFORE",
+         "target_name":" presented",
+         "source":"E1",
+         "target":"E77",
+         "source_group":34,
+         "id":"R71",
+         "source_name":" Crohn's disease",
+         "value":3
+      },
+      {  
+         "target_group":12,
+         "name":"BEFORE",
+         "target_name":" One month earlier",
+         "source":"E17",
+         "target":"E18",
+         "source_group":12,
+         "id":"R72",
+         "source_name":" 4 months earlier",
+         "value":3
+      },
+      {  
+         "target_group":37,
+         "name":"AFTER",
+         "target_name":" Pentasa",
+         "source":"E15",
+         "target":"E16",
+         "source_group":37,
+         "id":"R73",
+         "source_name":" no regular medication",
+         "value":null
+      },
+      {  
+         "target_group":12,
+         "name":"BEFORE",
+         "target_name":" two weeks earlier",
+         "source":"E20",
+         "target":"E21",
+         "source_group":11,
+         "id":"R74",
+         "source_name":" fistula",
+         "value":3
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" fistula",
+         "source":"T50",
+         "target":"E78",
+         "source_group":7,
+         "id":"R27",
+         "source_name":" cutaneous",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"AFTER",
+         "target_name":" fistula",
+         "source":"E23",
+         "target":"E78",
+         "source_group":11,
+         "id":"R75",
+         "source_name":" pain",
+         "value":null
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" fistula",
+         "source":"E24",
+         "target":"E78",
+         "source_group":35,
+         "id":"R76",
+         "source_name":" had been present for a year",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"AFTER",
+         "target_name":" fistula",
+         "source":"E27",
+         "target":"E26",
+         "source_group":11,
+         "id":"R77",
+         "source_name":" stricture",
+         "value":null
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" fistula",
+         "source":"E25",
+         "target":"E26",
+         "source_group":35,
+         "id":"R78",
+         "source_name":" of at least 2 years duration",
+         "value":4
+      },
+      {  
+         "target_group":37,
+         "name":"BEFORE",
+         "target_name":" azathioprine",
+         "source":"E26",
+         "target":"E29",
+         "source_group":11,
+         "id":"R79",
+         "source_name":" fistula",
+         "value":3
+      },
+      {  
+         "target_group":11,
+         "name":"BEFORE",
+         "target_name":" no extra-intestinal manifestations",
+         "source":"E32",
+         "target":"E33",
+         "source_group":12,
+         "id":"R80",
+         "source_name":" a year earlier",
+         "value":3
+      },
+      {  
+         "target_group":22,
+         "name":"BEFORE",
+         "target_name":" admission",
+         "source":"E33",
+         "target":"E34",
+         "source_group":11,
+         "id":"R81",
+         "source_name":" no extra-intestinal manifestations",
+         "value":3
+      },
+      {  
+         "target_group":22,
+         "name":"MODIFY",
+         "target_name":" admission",
+         "source":"T66",
+         "target":"E34",
+         "source_group":17,
+         "id":"R82",
+         "source_name":" hospital",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" cardio-respiratory examination",
+         "source":"T73",
+         "target":"E38",
+         "source_group":28,
+         "id":"R83",
+         "source_name":" normal",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" tender",
+         "source":"T74",
+         "target":"E40",
+         "source_group":7,
+         "id":"R84",
+         "source_name":" abdomen",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" tender",
+         "source":"T78",
+         "target":"E40",
+         "source_group":27,
+         "id":"R37",
+         "source_name":" without guarding",
+         "value":4
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" tender",
+         "source":"T79",
+         "target":"E40",
+         "source_group":27,
+         "id":"R38",
+         "source_name":" 1404 without rebound tenderness",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" Examination of the skin",
+         "source":"T83",
+         "target":"E43",
+         "source_group":7,
+         "id":"R85",
+         "source_name":" elbows",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" Examination of the skin",
+         "source":"T84",
+         "target":"E43",
+         "source_group":7,
+         "id":"R86",
+         "source_name":" ankles",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" Examination of the skin",
+         "source":"T85",
+         "target":"E43",
+         "source_group":7,
+         "id":"R87",
+         "source_name":" feet",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"BEFORE",
+         "target_name":" laboratory tests",
+         "source":"E46",
+         "target":"E48",
+         "source_group":11,
+         "id":"R88",
+         "source_name":" synovitis",
+         "value":3
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" microscopy",
+         "source":"T109",
+         "target":"E58",
+         "source_group":28,
+         "id":"R89",
+         "source_name":" normal",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" urine analysis",
+         "source":"T109",
+         "target":"E57",
+         "source_group":28,
+         "id":"R90",
+         "source_name":" normal",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" complement",
+         "source":"T109",
+         "target":"E56",
+         "source_group":28,
+         "id":"R91",
+         "source_name":" normal",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" electrolytes",
+         "source":"T109",
+         "target":"E55",
+         "source_group":28,
+         "id":"R92",
+         "source_name":" normal",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" Urea",
+         "source":"T109",
+         "target":"E54",
+         "source_group":28,
+         "id":"R93",
+         "source_name":" normal",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" Rheumatoid factor",
+         "source":"T110",
+         "target":"E60",
+         "source_group":28,
+         "id":"R94",
+         "source_name":" negative",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" cytoplasmic antibodies",
+         "source":"T110",
+         "target":"E61",
+         "source_group":28,
+         "id":"R95",
+         "source_name":" negative",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" cryoglobulins",
+         "source":"T110",
+         "target":"E75",
+         "source_group":28,
+         "id":"R96",
+         "source_name":" negative",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" Hepatitis B and C serology",
+         "source":"T110",
+         "target":"E76",
+         "source_group":28,
+         "id":"R97",
+         "source_name":" negative",
+         "value":4
+      },
+      {  
+         "target_group":38,
+         "name":"BEFORE",
+         "target_name":" echocardiogram",
+         "source":"E76",
+         "target":"E62",
+         "source_group":38,
+         "id":"R98",
+         "source_name":" Hepatitis B and C serology",
+         "value":3
+      },
+      {  
+         "target_group":38,
+         "name":"BEFORE",
+         "target_name":" biopsy",
+         "source":"E64",
+         "target":"E65",
+         "source_group":38,
+         "id":"R99",
+         "source_name":" multiple blood cultures",
+         "value":3
+      },
+      {  
+         "target_group":38,
+         "name":"MODIFY",
+         "target_name":" biopsy",
+         "source":"T124",
+         "target":"E65",
+         "source_group":7,
+         "id":"R100",
+         "source_name":" infiltrate",
+         "value":4
+      },
+      {  
+         "target_group":7,
+         "name":"MODIFY",
+         "target_name":" infiltrate",
+         "source":"T125",
+         "target":"T124",
+         "source_group":7,
+         "id":"R101",
+         "source_name":" neutrophils",
+         "value":4
+      },
+      {  
+         "target_group":37,
+         "name":"BEFORE",
+         "target_name":" prednisolone",
+         "source":"E66",
+         "target":"E68",
+         "source_group":34,
+         "id":"R102",
+         "source_name":" vasculitis",
+         "value":3
+      },
+      {  
+         "target_group":11,
+         "name":"BEFORE",
+         "target_name":" resolution of all features",
+         "source":"E68",
+         "target":"E69",
+         "source_group":37,
+         "id":"R103",
+         "source_name":" prednisolone",
+         "value":3
+      },
+      {  
+         "target_group":37,
+         "name":"BEFORE",
+         "target_name":" prednisolone",
+         "source":"E69",
+         "target":"E70",
+         "source_group":11,
+         "id":"R104",
+         "source_name":" resolution of all features",
+         "value":3
+      },
+      {  
+         "target_group":11,
+         "name":"BEFORE",
+         "target_name":" without any recurrence",
+         "source":"E70",
+         "target":"E72",
+         "source_group":37,
+         "id":"R105",
+         "source_name":" prednisolone",
+         "value":3
+      },
+      {  
+         "target_group":11,
+         "name":"MODIFY",
+         "target_name":" without any recurrence",
+         "source":"E71",
+         "target":"E72",
+         "source_group":35,
+         "id":"R106",
+         "source_name":" over the following 3 years",
+         "value":4
+      }
+   ]
+}
