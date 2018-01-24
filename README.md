@@ -16,7 +16,7 @@ Network Created from anoted data
 ------------------
 #### Network Sample
 
-![png](https://github.com/BD2K-Aztec/network/blob/master/ntwk.png?raw=true)
+![png](https://github.com/BD2K-Aztec/network/blob/master/ntk.png?raw=true)
 
 #### References:
 1. http://brat.nlplab.org/standoff.html
