@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Final Network</title>
+    <link rel="stylesheet" href="normalize.css">
+
+
+     <style>  
+     #chart {                                                          
+        height: 360px;                                                  
+        position: relative;                                             
+        width: 360px;                                                   
+      }                                                                 
+      .tooltip {                                                       
+        background: #eee;                                              
+        box-shadow: 0 0 5px #999999;                                    
+        color: #333;                                                    
+        display: none;                                                  
+        font-size: 16px;                                                
+        left: 130px;                                                    
+        padding: 10px;                                                  
+        position: absolute;                                             
+        text-align: center;                                             
+        top: 95px;                                                      
+        width: 200px;                                                    
+        z-index: 10;                                                    
+      }                                                         
+      .legend {
+        font-size: 12px;
+      }
+      rect {
+        stroke-width: 2;
+      }
+      .links line {
+        stroke: #999;
+        stroke-opacity: 0.6;
+        }
+
+      .nodes circle {
+        stroke: #fff;
+        stroke-width: 1.5px;
+      }
+      .node text {
+        pointer-events: none;
+        font: 10px sans-serif;
+      }
+
+
+
+</style>
+
+
+
+</head>
+
+
+
+
+
+<div id="chart"></div>
+<svg width="1000" height="800"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="d3.legend.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+
+
+
+
+
+var svg = d3.select("svg"),
+     width = $(window).width(),
+     height = $(window).height();
+
+
+
+var legendRectSize = 18;                                  
+var legendSpacing = 4;                                   
+
+
+var svg = d3.select("svg")
+              .attr('width', width)
+              .attr('height', height)
+              .append('g')
+              .attr('transform', 'translate(' + (width / 2) +
+                      ',' + (height / 2) + ')');
+        
+var donutWidth = $(window).height()*0.05;   
+                                    
+
+var radius = Math.min(width, height) / 2;
+var color = d3.scaleOrdinal(d3.schemeCategory20b);
+    
+
+
+
+var simulation = d3.forceSimulation()
+                .force("link", d3.forceLink().id(function(d) { return d.id; }))
+                .force("charge", d3.forceManyBody().strength(-10))
+                .force("center", d3.forceCenter(0.01*width / 2, 0.01*height / 2));
+
+
+
+        
+
+/*======================= legend + pi-chart ==============*/
+
+d3.csv('18561524.csv', function(error, dataset) {            
+          dataset.forEach(function(d) {                             
+            d.count = +d.count;                                     
+          }); 
+
+
+
+var legend = svg.selectAll(".legend")
+                .data(dataset)
+                .enter().append("g")
+                .attr("class", "legend")
+                .attr("transform", function(d, i) { return "translate(0," + i * 10 + ")"; })
+                .attr('transform', 'translate(' + (2*width) +
+                      ',' + (2*height) + ')');;
+
+
+          legend.append("rect")
+                .attr("x", width -20)
+                .attr("width", function(d) { return d.count; })
+                .attr("height", 18)
+                .attr("r", 10)
+                .attr("fill", function(d) { return color(d.label); });
+
+                
+
+
+          legend.append("text")
+                .attr("x", width - 24)
+                .attr("y", 9)
+                .attr("dy", ".35em")
+                .style("text-anchor", "end")
+                .text(function(d) { return d.count+" : "+ d.label; })
+                .attr("fill", function(d) { return color(d.label); });
+
+
+
+
+/* ============ pi-chart begins here ============*/
+
+
+var arc = d3.arc()
+          .innerRadius(radius - donutWidth)      
+          .outerRadius(radius);
+
+
+
+var pie = d3.pie()
+          .value(function(d) { return d.count; })
+          .sort(null);
+
+
+ 
+var path = svg.selectAll('path')
+          .data(pie(dataset))
+          .enter()
+          .append('path')
+          .attr('d', arc)
+          .attr('fill', function(d) {
+            return color(d.data.label);
+          });
+
+
+ 
+
+
+var tooltip = d3.select('#chart').append('div')                                       
+          .attr('class', 'tooltip');     
+
+        tooltip.append('div')                                           
+          .attr('class', 'label');                                     
+
+        tooltip.append('div')                                          
+          .attr('class', 'count');                                     
+
+        tooltip.append('div')                                          
+          .attr('class', 'percent');                                   
+
+
+
+path.on('mouseover', function(d) {                            
+            var total = d3.sum(dataset.map(function(d) {                
+              return d.count;                                           
+            }));                                                        
+            var percent = Math.round(1000 * d.data.count / total) / 10; 
+            tooltip.select('.label').html(d.data.label);                
+            tooltip.select('.count').html(d.data.count);                
+            tooltip.select('.percent').html(percent + '%');             
+            tooltip.style('display', 'block');                          
+          });                                                           
+
+          path.on('mouseout', function() {                              
+            tooltip.style('display', 'none');                           
+          });                                                           
+
+          /* OPTIONAL*/
+          path.on('mousemove', function(d) {                            
+            tooltip.style('top', (d3.event.layerY + 20) + 'px')         
+              .style('left', (d3.event.layerX + 20) + 'px');            
+          });    
+
+                                                                
+
+
+
+
+
+});/*csv ends here  =========================================*/
+
+
+
+
+
+
+
+/* json begins here ============== network  =======================*/
+
+
+d3.json("18561524.json", function(error, graph) {
+
+  if (error) throw error;
+
+
+  var link = svg.append("g")
+            .attr("class", "links")
+            .selectAll("line")
+            .data(graph.links)
+            .enter().append("line")
+            .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+
+
+  var node = svg.append("g")
+            .attr("class", "nodes")
+            .selectAll("circle")
+            .data(graph.nodes)
+            .enter().append("circle")
+            .attr("r", 8)
+            .attr("fill", function(d) { return color(d.group); })
+            .call(d3.drag()
+            .on("start", dragstarted)
+            .on("drag", dragged)
+            .on("end", dragended));
+
+        node.append("text")
+            .attr("dx", 12)
+            .attr("dy", ".35em")
+            .text(function(d) { return d.id; })
+            .attr("fill", function(d) { return color(d.group); });
+
+
+  simulation
+      .nodes(graph.nodes)
+      .on("tick", ticked);
+
+
+
+  simulation.force("link")
+      .links(graph.links);
+
+
+  function ticked() {
+    link
+        .attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    node
+        .attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+  }
+
+
+});/* json ends here =========================================*/
+
+
+
+
+
+
+
+
+
+
+
+/*==============external functions ================*/
+
+function dragstarted(d) {
+  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+  d.fx = d.x;
+  d.fy = d.y;
+}
+
+function dragged(d) {
+  d.fx = d3.event.x;
+  d.fy = d3.event.y;
+}
+
+function dragended(d) {
+  if (!d3.event.active) simulation.alphaTarget(0);
+  d.fx = null;
+  d.fy = null;
+}
+
+
+
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
