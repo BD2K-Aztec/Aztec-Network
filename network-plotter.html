@@ -107,7 +107,7 @@ var simulation = d3.forceSimulation()
 
 /*======================= legend + pi-chart ==============*/
 
-d3.csv('18561524.csv', function(error, dataset) {            
+d3.csv('./data/18561524.csv', function(error, dataset) {            
           dataset.forEach(function(d) {                             
             d.count = +d.count;                                     
           }); 
@@ -224,7 +224,7 @@ path.on('mouseover', function(d) {
 /* json begins here ============== network  =======================*/
 
 
-d3.json("18561524.json", function(error, graph) {
+d3.json("./data/18561524.json", function(error, graph) {
 
   if (error) throw error;
 
