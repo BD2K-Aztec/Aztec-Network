@@ -1,0 +1,113 @@
+text is: E1 Disease_disorder:T3===>id:E1, type:Disease_disorder, name: attention-deficit hyperactivity disorder, icolor:Chocolate
+text is: E2 Disease_disorder:T4===>id:E2, type:Disease_disorder, name: ADHD, icolor:Chocolate
+text is: E3 Date:T5===>id:E3, type:Date, name: 2005, icolor:Green
+text is: E4 Diagnostic_procedure:T6===>id:E4, type:Diagnostic_procedure, name: body mass index, icolor:DeepSkyBlue
+text is: E5 Diagnostic_procedure:T7===>id:E5, type:Diagnostic_procedure, name: BMI, icolor:DeepSkyBlue
+text is: E6 Sign_symptom:T10===>id:E6, type:Sign_symptom, name: overweight, icolor:GreenYellow
+text is: E7 Medication:T11===>id:E7, type:Medication, name: quetiapine fumarate, icolor:Aqua
+text is: E8 Medication:T12===>id:E8, type:Medication, name: (Seroquel®), icolor:Aqua
+text is: E9 Date:T14===>id:E9, type:Date, name: April 2005, icolor:Green
+text is: E10 Medication:T15===>id:E10, type:Medication, name: methylphenidate, icolor:Aqua
+text is: E11 Medication:T16===>id:E11, type:Medication, name: (Concerta®), icolor:Aqua
+text is: E12 Date:T18===>id:E12, type:Date, name: September 2005, icolor:Green
+text is: E13 Date:T19===>id:E13, type:Date, name: beginning of August 2006, icolor:Green
+text is: E14 Activity:T20===>id:E14, type:Activity, name: admitted, icolor:DarkRed
+text is: E15 Sign_symptom:T23===>id:E15, type:Sign_symptom, name: dyspnoea, icolor:GreenYellow
+text is: E16 Sign_symptom:T24===>id:E16, type:Sign_symptom, name: tachypnea, icolor:GreenYellow
+text is: E17 Sign_symptom:T25===>id:E17, type:Sign_symptom, name: tachycardia, icolor:GreenYellow
+text is: E18 Sign_symptom:T26===>id:E18, type:Sign_symptom, name: cyanosis, icolor:GreenYellow
+text is: E19 Activity:T27===>id:E19, type:Activity, name: admission, icolor:DarkRed
+text is: E20 Diagnostic_procedure:T28===>id:E20, type:Diagnostic_procedure, name: blood pressure, icolor:DeepSkyBlue
+text is: E21 Diagnostic_procedure:T30===>id:E21, type:Diagnostic_procedure, name: arterial blood gas, icolor:DeepSkyBlue
+text is: E22 Diagnostic_procedure:T31===>id:E22, type:Diagnostic_procedure, name: pH, icolor:DeepSkyBlue
+text is: E23 Diagnostic_procedure:T33===>id:E23, type:Diagnostic_procedure, name: pCO2, icolor:DeepSkyBlue
+text is: E24 Diagnostic_procedure:T34===>id:E24, type:Diagnostic_procedure, name: paO2, icolor:DeepSkyBlue
+text is: E25 Diagnostic_procedure:T35===>id:E25, type:Diagnostic_procedure, name: BE, icolor:DeepSkyBlue
+text is: E26 Diagnostic_procedure:T39===>id:E26, type:Diagnostic_procedure, name: C-reactive protein, icolor:DeepSkyBlue
+text is: E27 Diagnostic_procedure:T42===>id:E27, type:Diagnostic_procedure, name: X-ray, icolor:DeepSkyBlue
+text is: E28 Sign_symptom:T45===>id:E28, type:Sign_symptom, name: enlarged heart, icolor:GreenYellow
+text is: E29 Sign_symptom:T43===>id:E29, type:Sign_symptom, name: hemoptysis, icolor:GreenYellow
+text is: E30 Medication:T44===>id:E30, type:Medication, name: heparin, icolor:Aqua
+text is: E31 Sign_symptom:T48===>id:E31, type:Sign_symptom, name: embolism, icolor:GreenYellow
+text is: E32 Disease_disorder:T49===>id:E32, type:Disease_disorder, name: cardiogenic shock, icolor:Chocolate
+text is: E33 Medication:T50===>id:E33, type:Medication, name: vasoactive drugs, icolor:Aqua
+text is: E34 Sign_symptom:T51===>id:E34, type:Sign_symptom, name: oliguric, icolor:GreenYellow
+text is: E35 Diagnostic_procedure:T52===>id:E35, type:Diagnostic_procedure, name: liver enzymes, icolor:DeepSkyBlue
+text is: E36 Activity:T54===>id:E36, type:Activity, name: referred, icolor:DarkRed
+text is: E37 Activity:T56===>id:E37, type:Activity, name: admission, icolor:DarkRed
+text is: E38 Diagnostic_procedure:T57===>id:E38, type:Diagnostic_procedure, name: blood pressure, icolor:DeepSkyBlue
+text is: E39 Medication:T59===>id:E39, type:Medication, name: noradrenaline, icolor:Aqua
+text is: E40 Diagnostic_procedure:T61===>id:E40, type:Diagnostic_procedure, name: heart rate, icolor:DeepSkyBlue
+text is: E41 Diagnostic_procedure:T63===>id:E41, type:Diagnostic_procedure, name: temperature, icolor:DeepSkyBlue
+text is: E42 Diagnostic_procedure:T65===>id:E42, type:Diagnostic_procedure, name: computed tomography scan, icolor:DeepSkyBlue
+text is: E43 Sign_symptom:T67===>id:E43, type:Sign_symptom, name: did not show pulmonary embolism, icolor:GreenYellow
+text is: E44 Diagnostic_procedure:T68===>id:E44, type:Diagnostic_procedure, name: Echocardiography, icolor:DeepSkyBlue
+text is: E45 Sign_symptom:T69===>id:E45, type:Sign_symptom, name: biventricular failure, icolor:GreenYellow
+text is: E46 Diagnostic_procedure:T71===>id:E46, type:Diagnostic_procedure, name: left ventricular end diastolic diameter, icolor:DeepSkyBlue
+text is: E47 Diagnostic_procedure:T75===>id:E47, type:Diagnostic_procedure, name: ejection fraction, icolor:DeepSkyBlue
+text is: E48 Diagnostic_procedure:T76===>id:E48, type:Diagnostic_procedure, name: EF, icolor:DeepSkyBlue
+text is: E49 Diagnostic_procedure:T78===>id:E49, type:Diagnostic_procedure, name: left ventricular end diastolic pressure, icolor:DeepSkyBlue
+text is: E50 Sign_symptom:T80===>id:E50, type:Sign_symptom, name: mitral regurgitation, icolor:GreenYellow
+text is: E51 Therapeutic_procedure:T82===>id:E51, type:Therapeutic_procedure, name: hemodialysis, icolor:Blue
+text is: E52 Diagnostic_procedure:T84===>id:E52, type:Diagnostic_procedure, name: liver function, icolor:DeepSkyBlue
+text is: E53 Coreference:T85===>id:E53, type:Coreference, name: dialysis, icolor:Green
+text is: E54 Diagnostic_procedure:T86===>id:E54, type:Diagnostic_procedure, name: renal function, icolor:DeepSkyBlue
+text is: E55 Diagnostic_procedure:T90===>id:E55, type:Diagnostic_procedure, name: creatinine values, icolor:DeepSkyBlue
+text is: E56 Date:T92===>id:E56, type:Date, name: After three days, icolor:Green
+text is: E57 Diagnostic_procedure:T93===>id:E57, type:Diagnostic_procedure, name: left ventricular systolic function, icolor:DeepSkyBlue
+text is: E58 Diagnostic_procedure:T95===>id:E58, type:Diagnostic_procedure, name: ejection fraction, icolor:DeepSkyBlue
+text is: E59 Sign_symptom:T97===>id:E59, type:Sign_symptom, name: pulmonary hypertension, icolor:GreenYellow
+text is: E60 Diagnostic_procedure:T98===>id:E60, type:Diagnostic_procedure, name: systolic pulmonary pressure, icolor:DeepSkyBlue
+text is: E61 Disease_disorder:T100===>id:E61, type:Disease_disorder, name: cardiomyopathy, icolor:Chocolate
+text is: E62 Sign_symptom:T102===>id:E62, type:Sign_symptom, name: low output failure, icolor:GreenYellow
+text is: E63 Sign_symptom:T103===>id:E63, type:Sign_symptom, name: failure, icolor:GreenYellow
+text is: E64 Coreference:T106===>id:E64, type:Coreference, name: cardiomyopathy, icolor:Green
+text is: E65 Medication:T108===>id:E65, type:Medication, name: methylphenidate, icolor:Aqua
+text is: E66 Medication:T109===>id:E66, type:Medication, name: quetiapine fumarate, icolor:Aqua
+text is: E67 Diagnostic_procedure:T110===>id:E67, type:Diagnostic_procedure, name: Screening for infectious pathogens, icolor:DeepSkyBlue
+text is: E68 Diagnostic_procedure:T111===>id:E68, type:Diagnostic_procedure, name: immunological markers, icolor:DeepSkyBlue
+text is: E69 Diagnostic_procedure:T112===>id:E69, type:Diagnostic_procedure, name: iron, icolor:DeepSkyBlue
+text is: E70 Diagnostic_procedure:T113===>id:E70, type:Diagnostic_procedure, name: amyloid deposition, icolor:DeepSkyBlue
+text is: E71 Medication:T116===>id:E71, type:Medication, name: noradrenaline, icolor:Aqua
+text is: E72 Medication:T117===>id:E72, type:Medication, name: dobutamine, icolor:Aqua
+text is: E73 Therapeutic_procedure:T119===>id:E73, type:Therapeutic_procedure, name: intraaortic balloon pump, icolor:Blue
+text is: E74 Therapeutic_procedure:T120===>id:E74, type:Therapeutic_procedure, name: IABP, icolor:Blue
+text is: E75 Activity:T121===>id:E75, type:Activity, name: admission, icolor:DarkRed
+text is: E76 Coreference:T122===>id:E76, type:Coreference, name: noradrenaline, icolor:Green
+text is: E77 Medication:T123===>id:E77, type:Medication, name: nitroprusside, icolor:Aqua
+text is: E78 Diagnostic_procedure:T124===>id:E78, type:Diagnostic_procedure, name: Coronary angiography, icolor:DeepSkyBlue
+text is: E79 Diagnostic_procedure:T126===>id:E79, type:Diagnostic_procedure, name: biopsy, icolor:DeepSkyBlue
+text is: E80 Disease_disorder:T129===>id:E80, type:Disease_disorder, name: myocardial pathology, icolor:Chocolate
+text is: E81 Coreference:T130===>id:E81, type:Coreference, name: IABP, icolor:Green
+text is: E82 Coreference:T131===>id:E82, type:Coreference, name: nitroprusside, icolor:Green
+text is: E84 Diagnostic_procedure:T133===>id:E84, type:Diagnostic_procedure, name: liver function, icolor:DeepSkyBlue
+text is: E85 Diagnostic_procedure:T135===>id:E85, type:Diagnostic_procedure, name: clinical situation, icolor:DeepSkyBlue
+text is: E86 Diagnostic_procedure:T137===>id:E86, type:Diagnostic_procedure, name: renal function, icolor:DeepSkyBlue
+text is: E87 Sign_symptom:T139===>id:E87, type:Sign_symptom, name: diuresis, icolor:GreenYellow
+text is: E88 Diagnostic_procedure:T140===>id:E88, type:Diagnostic_procedure, name: creatinine, icolor:DeepSkyBlue
+text is: E89 Diagnostic_procedure:T143===>id:E89, type:Diagnostic_procedure, name: EF, icolor:DeepSkyBlue
+text is: E90 Sign_symptom:T146===>id:E90, type:Sign_symptom, name: behavioral problems, icolor:GreenYellow
+text is: E91 Sign_symptom:T147===>id:E91, type:Sign_symptom, name: adipose stature, icolor:GreenYellow
+text is: E92 Therapeutic_procedure:T148===>id:E92, type:Therapeutic_procedure, name: heart transplant, icolor:Blue
+text is: E93 Activity:T149===>id:E93, type:Activity, name: denied, icolor:DarkRed
+text is: E94 Coreference:T150===>id:E94, type:Coreference, name: IABP, icolor:Green
+text is: E95 Duration:T151===>id:E95, type:Duration, name: 26 days, icolor:Green
+text is: E96 Duration:T152===>id:E96, type:Duration, name: after 28 days, icolor:Green
+text is: E97 Activity:T153===>id:E97, type:Activity, name: transferred, icolor:DarkRed
+text is: E98 Diagnostic_procedure:T155===>id:E98, type:Diagnostic_procedure, name: liver and renal functions, icolor:DeepSkyBlue
+text is: E99 Medication:T157===>id:E99, type:Medication, name: angiotensin-converting enzyme (ACE)-inhibitor, icolor:Aqua
+text is: E100 Medication:T158===>id:E100, type:Medication, name: beta-blocker, icolor:Aqua
+text is: E101 Medication:T159===>id:E101, type:Medication, name: diuretics, icolor:Aqua
+text is: E102 Activity:T160===>id:E102, type:Activity, name: discharged, icolor:DarkRed
+text is: E103 Duration:T161===>id:E103, type:Duration, name: two weeks, icolor:Green
+text is: E104 Diagnostic_procedure:T162===>id:E104, type:Diagnostic_procedure, name: clinical status, icolor:DeepSkyBlue
+text is: E105 Diagnostic_procedure:T164===>id:E105, type:Diagnostic_procedure, name: echocardiography, icolor:DeepSkyBlue
+text is: E106 Diagnostic_procedure:T165===>id:E106, type:Diagnostic_procedure, name: EF, icolor:DeepSkyBlue
+text is: E107 Date:T167===>id:E107, type:Date, name: March 2007, icolor:Green
+text is: E108 Diagnostic_procedure:T170===>id:E108, type:Diagnostic_procedure, name: clinical status, icolor:DeepSkyBlue
+text is: E109 Diagnostic_procedure:T172===>id:E109, type:Diagnostic_procedure, name: function class, icolor:DeepSkyBlue
+text is: E111 Diagnostic_procedure:T175===>id:E111, type:Diagnostic_procedure, name: EF, icolor:DeepSkyBlue
+text is: E112 Diagnostic_procedure:T176===>id:E112, type:Diagnostic_procedure, name: echocardiography, icolor:DeepSkyBlue
+text is: E110 Activity:T178===>id:E110, type:Activity, name: transferred, icolor:DarkRed
+text is: E113 Date:T179===>id:E113, type:Date, name: After three days, icolor:Green
+text is: E83 Therapeutic_procedure:T132===>id:E83, type:Therapeutic_procedure, name: dialysis, icolor:Blue

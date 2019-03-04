@@ -59,7 +59,7 @@ var simulation = d3.forceSimulation()
 
 /* json begins here =====================================*/
 
-d3.json("./data/sample.json", function(error, graph) {
+d3.json("newdata.json", function(error, graph) {
 
   if (error) throw error;
 
@@ -78,7 +78,7 @@ d3.json("./data/sample.json", function(error, graph) {
             .data(graph.nodes)
             .enter()
             .append("circle")
-            .attr("r", 10)
+            .attr("r",  function(d) { return d.degree + 5; })
             .attr("fill", function(d) { return d.icolor; })
             .call(d3.drag()
             .on("start", dragstarted)

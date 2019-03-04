@@ -1,0 +1,180 @@
+text is: T1 Age 3 14 18-year-old===>id:T1, type:Age, name: 18-year-old, icolor:MediumVioletRed
+text is: T2 Gender 15 19 male===>id:T2, type:Gender, name: male, icolor:MediumVioletRed
+text is: T3 Disease_disorder 39 79 attention-deficit hyperactivity disorder===>id:T3, type:Disease_disorder, name: attention-deficit hyperactivity disorder, icolor:Chocolate
+text is: T4 Disease_disorder 81 85 ADHD===>id:T4, type:Disease_disorder, name: ADHD, icolor:Chocolate
+text is: T5 Date 90 94 2005===>id:T5, type:Date, name: 2005, icolor:Green
+text is: T6 Diagnostic_procedure 121 136 body mass index===>id:T6, type:Diagnostic_procedure, name: body mass index, icolor:DeepSkyBlue
+text is: T7 Diagnostic_procedure 138 141 BMI===>id:T7, type:Diagnostic_procedure, name: BMI, icolor:DeepSkyBlue
+text is: T8 Lab_value 146 148 40===>id:T8, type:Lab_value, name: 40, icolor:Yellow
+text is: T9 History 103 113 overweight===>id:T9, type:History, name: overweight, icolor:MediumVioletRed
+text is: T10 Sign_symptom 103 113 overweight===>id:T10, type:Sign_symptom, name: overweight, icolor:GreenYellow
+text is: T11 Medication 168 187 quetiapine fumarate===>id:T11, type:Medication, name: quetiapine fumarate, icolor:Aqua
+text is: T12 Medication 188 199 (Seroquel®)===>id:T12, type:Medication, name: (Seroquel®), icolor:Aqua
+text is: T13 Dosage 200 212 900 mg daily===>id:T13, type:Dosage, name: 900 mg daily, icolor:Gold
+text is: T14 Date 216 226 April 2005===>id:T14, type:Date, name: April 2005, icolor:Green
+text is: T15 Medication 231 246 methylphenidate===>id:T15, type:Medication, name: methylphenidate, icolor:Aqua
+text is: T16 Medication 247 258 (Concerta®)===>id:T16, type:Medication, name: (Concerta®), icolor:Aqua
+text is: T17 Dosage 259 270 54 mg daily===>id:T17, type:Dosage, name: 54 mg daily, icolor:Gold
+text is: T18 Date 274 288 September 2005===>id:T18, type:Date, name: September 2005, icolor:Green
+text is: T19 Date 297 321 beginning of August 2006===>id:T19, type:Date, name: beginning of August 2006, icolor:Green
+text is: T20 Activity 329 337 admitted===>id:T20, type:Activity, name: admitted, icolor:DarkRed
+text is: T21 Nonbiological_location 345 359 local hospital===>id:T21, type:Nonbiological_location, name: local hospital, icolor:LightGreen
+text is: T22 Severity 365 371 severe===>id:T22, type:Severity, name: severe, icolor:Gold
+text is: T23 Sign_symptom 372 380 dyspnoea===>id:T23, type:Sign_symptom, name: dyspnoea, icolor:GreenYellow
+text is: T24 Sign_symptom 382 391 tachypnea===>id:T24, type:Sign_symptom, name: tachypnea, icolor:GreenYellow
+text is: T25 Sign_symptom 393 404 tachycardia===>id:T25, type:Sign_symptom, name: tachycardia, icolor:GreenYellow
+text is: T26 Sign_symptom 410 418 cyanosis===>id:T26, type:Sign_symptom, name: cyanosis, icolor:GreenYellow
+text is: T27 Activity 423 432 admission===>id:T27, type:Activity, name: admission, icolor:DarkRed
+text is: T28 Diagnostic_procedure 437 451 blood pressure===>id:T28, type:Diagnostic_procedure, name: blood pressure, icolor:DeepSkyBlue
+text is: T29 Lab_value 456 467 120/80 mmHg===>id:T29, type:Lab_value, name: 120/80 mmHg, icolor:Yellow
+text is: T30 Diagnostic_procedure 477 495 arterial blood gas===>id:T30, type:Diagnostic_procedure, name: arterial blood gas, icolor:DeepSkyBlue
+text is: T31 Diagnostic_procedure 507 509 pH===>id:T31, type:Diagnostic_procedure, name: pH, icolor:DeepSkyBlue
+text is: T32 Lab_value 513 517 7.45===>id:T32, type:Lab_value, name: 7.45, icolor:Yellow
+text is: T33 Diagnostic_procedure 519 523 pCO2===>id:T33, type:Diagnostic_procedure, name: pCO2, icolor:DeepSkyBlue
+text is: T34 Diagnostic_procedure 537 541 paO2===>id:T34, type:Diagnostic_procedure, name: paO2, icolor:DeepSkyBlue
+text is: T35 Diagnostic_procedure 559 561 BE===>id:T35, type:Diagnostic_procedure, name: BE, icolor:DeepSkyBlue
+text is: T36 Lab_value 527 535 3.55 kPa===>id:T36, type:Lab_value, name: 3.55 kPa, icolor:Yellow
+text is: T37 Lab_value 545 553 7.76 kPa===>id:T37, type:Lab_value, name: 7.76 kPa, icolor:Yellow
+text is: T38 Lab_value 565 576 −5.1 mmol/l===>id:T38, type:Lab_value, name: −5.1 mmol/l, icolor:Yellow
+text is: T39 Diagnostic_procedure 578 596 C-reactive protein===>id:T39, type:Diagnostic_procedure, name: C-reactive protein, icolor:DeepSkyBlue
+text is: T40 Qualitative_concept 601 613 not elevated===>id:T40, type:Qualitative_concept, name: not elevated, icolor:Gold
+text is: T41 Biological_structure 619 624 chest===>id:T41, type:Biological_structure, name: chest, icolor:DarkGreen
+text is: T42 Diagnostic_procedure 625 630 X-ray===>id:T42, type:Diagnostic_procedure, name: X-ray, icolor:DeepSkyBlue
+text is: T45 Sign_symptom 641 655 enlarged heart===>id:T45, type:Sign_symptom, name: enlarged heart, icolor:GreenYellow
+text is: T43 Sign_symptom 670 680 hemoptysis===>id:T43, type:Sign_symptom, name: hemoptysis, icolor:GreenYellow
+text is: T44 Medication 717 724 heparin===>id:T44, type:Medication, name: heparin, icolor:Aqua
+text is: T46 Detailed_description 702 716 unfractionated===>id:T46, type:Detailed_description, name: unfractionated, icolor:DarkGreen
+text is: T47 Biological_structure 741 750 pulmonary===>id:T47, type:Biological_structure, name: pulmonary, icolor:DarkGreen
+text is: T48 Sign_symptom 751 759 embolism===>id:T48, type:Sign_symptom, name: embolism, icolor:GreenYellow
+text is: T49 Disease_disorder 787 804 cardiogenic shock===>id:T49, type:Disease_disorder, name: cardiogenic shock, icolor:Chocolate
+text is: T50 Medication 826 842 vasoactive drugs===>id:T50, type:Medication, name: vasoactive drugs, icolor:Aqua
+text is: T51 Sign_symptom 880 888 oliguric===>id:T51, type:Sign_symptom, name: oliguric, icolor:GreenYellow
+text is: T52 Diagnostic_procedure 897 910 liver enzymes===>id:T52, type:Diagnostic_procedure, name: liver enzymes, icolor:DeepSkyBlue
+text is: T53 Qualitative_concept 916 922 rising===>id:T53, type:Qualitative_concept, name: rising, icolor:Gold
+text is: T54 Activity 931 939 referred===>id:T54, type:Activity, name: referred, icolor:DarkRed
+text is: T55 Nonbiological_location 947 955 hospital===>id:T55, type:Nonbiological_location, name: hospital, icolor:LightGreen
+text is: T56 Activity 982 991 admission===>id:T56, type:Activity, name: admission, icolor:DarkRed
+text is: T57 Diagnostic_procedure 996 1010 blood pressure===>id:T57, type:Diagnostic_procedure, name: blood pressure, icolor:DeepSkyBlue
+text is: T58 Lab_value 1015 1025 90/60 mmHg===>id:T58, type:Lab_value, name: 90/60 mmHg, icolor:Yellow
+text is: T59 Medication 1049 1062 noradrenaline===>id:T59, type:Medication, name: noradrenaline, icolor:Aqua
+text is: T60 Administration 1035 1043 infusion===>id:T60, type:Administration, name: infusion, icolor:Gold
+text is: T61 Diagnostic_procedure 1068 1078 heart rate===>id:T61, type:Diagnostic_procedure, name: heart rate, icolor:DeepSkyBlue
+text is: T62 Lab_value 1083 1093 130/minute===>id:T62, type:Lab_value, name: 130/minute, icolor:Yellow
+text is: T63 Diagnostic_procedure 1102 1113 temperature===>id:T63, type:Diagnostic_procedure, name: temperature, icolor:DeepSkyBlue
+text is: T64 Lab_value 1118 1125 38.4 °C===>id:T64, type:Lab_value, name: 38.4 °C, icolor:Yellow
+text is: T65 Diagnostic_procedure 1138 1162 computed tomography scan===>id:T65, type:Diagnostic_procedure, name: computed tomography scan, icolor:DeepSkyBlue
+text is: T66 Biological_structure 1129 1137 thoracic===>id:T66, type:Biological_structure, name: thoracic, icolor:DarkGreen
+text is: T67 Sign_symptom 1163 1194 did not show pulmonary embolism===>id:T67, type:Sign_symptom, name: did not show pulmonary embolism, icolor:GreenYellow
+text is: T68 Diagnostic_procedure 1196 1212 Echocardiography===>id:T68, type:Diagnostic_procedure, name: Echocardiography, icolor:DeepSkyBlue
+text is: T69 Sign_symptom 1222 1243 biventricular failure===>id:T69, type:Sign_symptom, name: biventricular failure, icolor:GreenYellow
+text is: T70 Distance 1292 1296 7 cm===>id:T70, type:Distance, name: 7 cm, icolor:Green
+text is: T71 Diagnostic_procedure 1248 1287 left ventricular end diastolic diameter===>id:T71, type:Diagnostic_procedure, name: left ventricular end diastolic diameter, icolor:DeepSkyBlue
+text is: T72 Biological_structure 1302 1316 left ventricle===>id:T72, type:Biological_structure, name: left ventricle, icolor:DarkGreen
+text is: T73 Qualitative_concept 1330 1341 hypokinetic===>id:T73, type:Qualitative_concept, name: hypokinetic, icolor:Gold
+text is: T74 Severity 1321 1329 severely===>id:T74, type:Severity, name: severely, icolor:Gold
+text is: T75 Diagnostic_procedure 1350 1367 ejection fraction===>id:T75, type:Diagnostic_procedure, name: ejection fraction, icolor:DeepSkyBlue
+text is: T76 Diagnostic_procedure 1369 1371 EF===>id:T76, type:Diagnostic_procedure, name: EF, icolor:DeepSkyBlue
+text is: T77 Lab_value 1376 1383 20%–25%===>id:T77, type:Lab_value, name: 20%–25%, icolor:Yellow
+text is: T78 Diagnostic_procedure 1389 1428 left ventricular end diastolic pressure===>id:T78, type:Diagnostic_procedure, name: left ventricular end diastolic pressure, icolor:DeepSkyBlue
+text is: T79 Qualitative_concept 1442 1450 elevated===>id:T79, type:Qualitative_concept, name: elevated, icolor:Gold
+text is: T80 Sign_symptom 1477 1497 mitral regurgitation===>id:T80, type:Sign_symptom, name: mitral regurgitation, icolor:GreenYellow
+text is: T81 Qualitative_concept 1468 1476 moderate===>id:T81, type:Qualitative_concept, name: moderate, icolor:Gold
+text is: T82 Therapeutic_procedure 1512 1524 hemodialysis===>id:T82, type:Therapeutic_procedure, name: hemodialysis, icolor:Blue
+text is: T83 Detailed_description 1499 1511 Intermittent===>id:T83, type:Detailed_description, name: Intermittent, icolor:DarkGreen
+text is: T84 Diagnostic_procedure 1544 1558 liver function===>id:T84, type:Diagnostic_procedure, name: liver function, icolor:DeepSkyBlue
+text is: T85 Coreference 1590 1598 dialysis===>id:T85, type:Coreference, name: dialysis, icolor:Green
+text is: T86 Diagnostic_procedure 1603 1617 renal function===>id:T86, type:Diagnostic_procedure, name: renal function, icolor:DeepSkyBlue
+text is: T87 Qualitative_concept 1618 1630 deteriorated===>id:T87, type:Qualitative_concept, name: deteriorated, icolor:Gold
+text is: T88 Qualitative_concept 1559 1567 improved===>id:T88, type:Qualitative_concept, name: improved, icolor:Gold
+text is: T89 Severity 1568 1576 slightly===>id:T89, type:Severity, name: slightly, icolor:Gold
+text is: T90 Diagnostic_procedure 1647 1664 creatinine values===>id:T90, type:Diagnostic_procedure, name: creatinine values, icolor:DeepSkyBlue
+text is: T91 Qualitative_concept 1636 1646 increasing===>id:T91, type:Qualitative_concept, name: increasing, icolor:Gold
+text is: T92 Date 1666 1682 After three days===>id:T92, type:Date, name: After three days, icolor:Green
+text is: T93 Diagnostic_procedure 1720 1754 left ventricular systolic function===>id:T93, type:Diagnostic_procedure, name: left ventricular systolic function, icolor:DeepSkyBlue
+text is: T94 Qualitative_concept 1703 1712 worsening===>id:T94, type:Qualitative_concept, name: worsening, icolor:Gold
+text is: T95 Diagnostic_procedure 1763 1780 ejection fraction===>id:T95, type:Diagnostic_procedure, name: ejection fraction, icolor:DeepSkyBlue
+text is: T96 Lab_value 1784 1791 10%–12%===>id:T96, type:Lab_value, name: 10%–12%, icolor:Yellow
+text is: T97 Sign_symptom 1803 1825 pulmonary hypertension===>id:T97, type:Sign_symptom, name: pulmonary hypertension, icolor:GreenYellow
+text is: T98 Diagnostic_procedure 1831 1858 systolic pulmonary pressure===>id:T98, type:Diagnostic_procedure, name: systolic pulmonary pressure, icolor:DeepSkyBlue
+text is: T99 Lab_value 1872 1879 30 mmHg===>id:T99, type:Lab_value, name: 30 mmHg, icolor:Yellow
+text is: T100 Disease_disorder 1920 1934 cardiomyopathy===>id:T100, type:Disease_disorder, name: cardiomyopathy, icolor:Chocolate
+text is: T101 Detailed_description 1912 1919 dilated===>id:T101, type:Detailed_description, name: dilated, icolor:DarkGreen
+text is: T102 Sign_symptom 1940 1958 low output failure===>id:T102, type:Sign_symptom, name: low output failure, icolor:GreenYellow
+text is: T103 Sign_symptom 1983 1990 failure===>id:T103, type:Sign_symptom, name: failure, icolor:GreenYellow
+text is: T104 Biological_structure 1977 1982 liver===>id:T104, type:Biological_structure, name: liver, icolor:DarkGreen
+text is: T105 Biological_structure 1967 1972 renal===>id:T105, type:Biological_structure, name: renal, icolor:DarkGreen
+text is: T106 Coreference 2018 2032 cardiomyopathy===>id:T106, type:Coreference, name: cardiomyopathy, icolor:Green
+text is: T107 Detailed_description 2005 2017 drug-induced===>id:T107, type:Detailed_description, name: drug-induced, icolor:DarkGreen
+text is: T108 Medication 2037 2052 methylphenidate===>id:T108, type:Medication, name: methylphenidate, icolor:Aqua
+text is: T109 Medication 2057 2076 quetiapine fumarate===>id:T109, type:Medication, name: quetiapine fumarate, icolor:Aqua
+text is: T110 Diagnostic_procedure 2096 2130 Screening for infectious pathogens===>id:T110, type:Diagnostic_procedure, name: Screening for infectious pathogens, icolor:DeepSkyBlue
+text is: T111 Diagnostic_procedure 2132 2153 immunological markers===>id:T111, type:Diagnostic_procedure, name: immunological markers, icolor:DeepSkyBlue
+text is: T112 Diagnostic_procedure 2159 2163 iron===>id:T112, type:Diagnostic_procedure, name: iron, icolor:DeepSkyBlue
+text is: T113 Diagnostic_procedure 2167 2185 amyloid deposition===>id:T113, type:Diagnostic_procedure, name: amyloid deposition, icolor:DeepSkyBlue
+text is: T114 Qualitative_concept 2195 2203 negative===>id:T114, type:Qualitative_concept, name: negative, icolor:Gold
+text is: T115 Nonbiological_location 2248 2288 National Hospital (Rikshospitalet, Oslo)===>id:T115, type:Nonbiological_location, name: National Hospital (Rikshospitalet, Oslo), icolor:LightGreen
+text is: T116 Medication 2302 2315 noradrenaline===>id:T116, type:Medication, name: noradrenaline, icolor:Aqua
+text is: T117 Medication 2320 2330 dobutamine===>id:T117, type:Medication, name: dobutamine, icolor:Aqua
+text is: T118 Administration 2331 2340 infusions===>id:T118, type:Administration, name: infusions, icolor:Gold
+text is: T119 Therapeutic_procedure 2369 2393 intraaortic balloon pump===>id:T119, type:Therapeutic_procedure, name: intraaortic balloon pump, icolor:Blue
+text is: T120 Therapeutic_procedure 2395 2399 IABP===>id:T120, type:Therapeutic_procedure, name: IABP, icolor:Blue
+text is: T121 Activity 2356 2365 admission===>id:T121, type:Activity, name: admission, icolor:DarkRed
+text is: T122 Coreference 2418 2431 noradrenaline===>id:T122, type:Coreference, name: noradrenaline, icolor:Green
+text is: T123 Medication 2448 2461 nitroprusside===>id:T123, type:Medication, name: nitroprusside, icolor:Aqua
+text is: T124 Diagnostic_procedure 2463 2483 Coronary angiography===>id:T124, type:Diagnostic_procedure, name: Coronary angiography, icolor:DeepSkyBlue
+text is: T125 Qualitative_concept 2488 2494 normal===>id:T125, type:Qualitative_concept, name: normal, icolor:Gold
+text is: T126 Diagnostic_procedure 2511 2517 biopsy===>id:T126, type:Diagnostic_procedure, name: biopsy, icolor:DeepSkyBlue
+text is: T127 Biological_structure 2496 2510 Endomyocardial===>id:T127, type:Biological_structure, name: Endomyocardial, icolor:DarkGreen
+text is: T128 Biological_structure 2527 2542 right ventricle===>id:T128, type:Biological_structure, name: right ventricle, icolor:DarkGreen
+text is: T129 Disease_disorder 2571 2591 myocardial pathology===>id:T129, type:Disease_disorder, name: myocardial pathology, icolor:Chocolate
+text is: T130 Coreference 2611 2615 IABP===>id:T130, type:Coreference, name: IABP, icolor:Green
+text is: T131 Coreference 2617 2630 nitroprusside===>id:T131, type:Coreference, name: nitroprusside, icolor:Green
+text is: T133 Diagnostic_procedure 2696 2710 liver function===>id:T133, type:Diagnostic_procedure, name: liver function, icolor:DeepSkyBlue
+text is: T134 Qualitative_concept 2723 2729 normal===>id:T134, type:Qualitative_concept, name: normal, icolor:Gold
+text is: T135 Diagnostic_procedure 2650 2668 clinical situation===>id:T135, type:Diagnostic_procedure, name: clinical situation, icolor:DeepSkyBlue
+text is: T136 Qualitative_concept 2679 2687 improved===>id:T136, type:Qualitative_concept, name: improved, icolor:Gold
+text is: T137 Diagnostic_procedure 2735 2749 renal function===>id:T137, type:Diagnostic_procedure, name: renal function, icolor:DeepSkyBlue
+text is: T138 Qualitative_concept 2755 2763 improved===>id:T138, type:Qualitative_concept, name: improved, icolor:Gold
+text is: T139 Sign_symptom 2780 2788 diuresis===>id:T139, type:Sign_symptom, name: diuresis, icolor:GreenYellow
+text is: T140 Diagnostic_procedure 2793 2803 creatinine===>id:T140, type:Diagnostic_procedure, name: creatinine, icolor:DeepSkyBlue
+text is: T141 Lab_value 2814 2817 798===>id:T141, type:Lab_value, name: 798, icolor:Yellow
+text is: T142 Lab_value 2821 2830 98 μmol/l===>id:T142, type:Lab_value, name: 98 μmol/l, icolor:Yellow
+text is: T143 Diagnostic_procedure 2836 2838 EF===>id:T143, type:Diagnostic_procedure, name: EF, icolor:DeepSkyBlue
+text is: T144 Lab_value 2867 2870 15%===>id:T144, type:Lab_value, name: 15%, icolor:Yellow
+text is: T145 Qualitative_concept 2858 2865 reduced===>id:T145, type:Qualitative_concept, name: reduced, icolor:Gold
+text is: T146 Sign_symptom 2884 2903 behavioral problems===>id:T146, type:Sign_symptom, name: behavioral problems, icolor:GreenYellow
+text is: T147 Sign_symptom 2908 2923 adipose stature===>id:T147, type:Sign_symptom, name: adipose stature, icolor:GreenYellow
+text is: T148 Therapeutic_procedure 2941 2957 heart transplant===>id:T148, type:Therapeutic_procedure, name: heart transplant, icolor:Blue
+text is: T149 Activity 2932 2938 denied===>id:T149, type:Activity, name: denied, icolor:DarkRed
+text is: T150 Coreference 2979 2983 IABP===>id:T150, type:Coreference, name: IABP, icolor:Green
+text is: T151 Duration 2988 2995 26 days===>id:T151, type:Duration, name: 26 days, icolor:Green
+text is: T152 Duration 3001 3014 after 28 days===>id:T152, type:Duration, name: after 28 days, icolor:Green
+text is: T153 Activity 3022 3033 transferred===>id:T153, type:Activity, name: transferred, icolor:DarkRed
+text is: T154 Nonbiological_location 3042 3054 our hospital===>id:T154, type:Nonbiological_location, name: our hospital, icolor:LightGreen
+text is: T155 Diagnostic_procedure 3073 3098 liver and renal functions===>id:T155, type:Diagnostic_procedure, name: liver and renal functions, icolor:DeepSkyBlue
+text is: T156 Qualitative_concept 3104 3110 normal===>id:T156, type:Qualitative_concept, name: normal, icolor:Gold
+text is: T157 Medication 3135 3180 angiotensin-converting enzyme (ACE)-inhibitor===>id:T157, type:Medication, name: angiotensin-converting enzyme (ACE)-inhibitor, icolor:Aqua
+text is: T158 Medication 3184 3196 beta-blocker===>id:T158, type:Medication, name: beta-blocker, icolor:Aqua
+text is: T159 Medication 3202 3211 diuretics===>id:T159, type:Medication, name: diuretics, icolor:Aqua
+text is: T160 Activity 3297 3307 discharged===>id:T160, type:Activity, name: discharged, icolor:DarkRed
+text is: T161 Duration 3234 3243 two weeks===>id:T161, type:Duration, name: two weeks, icolor:Green
+text is: T162 Diagnostic_procedure 3248 3263 clinical status===>id:T162, type:Diagnostic_procedure, name: clinical status, icolor:DeepSkyBlue
+text is: T163 Qualitative_concept 3264 3272 improved===>id:T163, type:Qualitative_concept, name: improved, icolor:Gold
+text is: T164 Diagnostic_procedure 3325 3341 echocardiography===>id:T164, type:Diagnostic_procedure, name: echocardiography, icolor:DeepSkyBlue
+text is: T165 Diagnostic_procedure 3392 3394 EF===>id:T165, type:Diagnostic_procedure, name: EF, icolor:DeepSkyBlue
+text is: T166 Lab_value 3398 3401 20%===>id:T166, type:Lab_value, name: 20%, icolor:Yellow
+text is: T167 Date 3406 3416 March 2007===>id:T167, type:Date, name: March 2007, icolor:Green
+text is: T168 Biological_structure 3372 3386 left ventricle===>id:T168, type:Biological_structure, name: left ventricle, icolor:DarkGreen
+text is: T169 Qualitative_concept 3364 3371 dilated===>id:T169, type:Qualitative_concept, name: dilated, icolor:Gold
+text is: T170 Diagnostic_procedure 3422 3437 clinical status===>id:T170, type:Diagnostic_procedure, name: clinical status, icolor:DeepSkyBlue
+text is: T171 Qualitative_concept 3442 3450 improved===>id:T171, type:Qualitative_concept, name: improved, icolor:Gold
+text is: T172 Diagnostic_procedure 3465 3479 function class===>id:T172, type:Diagnostic_procedure, name: function class, icolor:DeepSkyBlue
+text is: T173 Qualitative_concept 3480 3482 II===>id:T173, type:Qualitative_concept, name: II, icolor:Gold
+text is: T175 Diagnostic_procedure 3520 3522 EF===>id:T175, type:Diagnostic_procedure, name: EF, icolor:DeepSkyBlue
+text is: T176 Diagnostic_procedure 3536 3552 echocardiography===>id:T176, type:Diagnostic_procedure, name: echocardiography, icolor:DeepSkyBlue
+text is: T177 Lab_value 3556 3563 30%–35%===>id:T177, type:Lab_value, name: 30%–35%, icolor:Yellow
+text is: T174 Detailed_description 3484 3510 New York Heart Association===>id:T174, type:Detailed_description, name: New York Heart Association, icolor:DarkGreen
+text is: T178 Activity 2229 2240 transferred===>id:T178, type:Activity, name: transferred, icolor:DarkRed
+text is: T179 Date 2205 2221 After three days===>id:T179, type:Date, name: After three days, icolor:Green
+text is: T180 Nonbiological_location 3311 3319 his home===>id:T180, type:Nonbiological_location, name: his home, icolor:LightGreen
+text is: T132 Therapeutic_procedure 2636 2644 dialysis===>id:T132, type:Therapeutic_procedure, name: dialysis, icolor:Blue

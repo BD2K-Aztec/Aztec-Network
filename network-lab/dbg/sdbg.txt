@@ -1,0 +1,330 @@
+text is: * OVERLAP E1 E3 E6 E4===>idST, name : OVERLAP, value : 3.0, source : E1, source_name :  attention-deficit hyperactivity disorder, target : E3, target_name :  2005
+idST, name : OVERLAP, value : 3.0, source : E1, source_name :  attention-deficit hyperactivity disorder, target : E6, target_name :  overweight
+idST, name : OVERLAP, value : 3.0, source : E1, source_name :  attention-deficit hyperactivity disorder, target : E4, target_name :  body mass index
+idST, name : OVERLAP, value : 3.0, source : E3, source_name :  2005, target : E6, target_name :  overweight
+idST, name : OVERLAP, value : 3.0, source : E3, source_name :  2005, target : E4, target_name :  body mass index
+idST, name : OVERLAP, value : 3.0, source : E6, source_name :  overweight, target : E4, target_name :  body mass index
+text is: * OVERLAP E7 E9===>idST, name : OVERLAP, value : 3.0, source : E7, source_name :  quetiapine fumarate, target : E9, target_name :  April 2005
+text is: * OVERLAP E10 E12===>idST, name : OVERLAP, value : 3.0, source : E10, source_name :  methylphenidate, target : E12, target_name :  September 2005
+text is: * OVERLAP E13 E14 E15 E16 E17 E18 E19 E20 E21 E26 E27 E28===>idST, name : OVERLAP, value : 3.0, source : E13, source_name :  beginning of August 2006, target : E14, target_name :  admitted
+idST, name : OVERLAP, value : 3.0, source : E13, source_name :  beginning of August 2006, target : E15, target_name :  dyspnoea
+idST, name : OVERLAP, value : 3.0, source : E13, source_name :  beginning of August 2006, target : E16, target_name :  tachypnea
+idST, name : OVERLAP, value : 3.0, source : E13, source_name :  beginning of August 2006, target : E17, target_name :  tachycardia
+idST, name : OVERLAP, value : 3.0, source : E13, source_name :  beginning of August 2006, target : E18, target_name :  cyanosis
+idST, name : OVERLAP, value : 3.0, source : E13, source_name :  beginning of August 2006, target : E19, target_name :  admission
+idST, name : OVERLAP, value : 3.0, source : E13, source_name :  beginning of August 2006, target : E20, target_name :  blood pressure
+idST, name : OVERLAP, value : 3.0, source : E13, source_name :  beginning of August 2006, target : E21, target_name :  arterial blood gas
+idST, name : OVERLAP, value : 3.0, source : E13, source_name :  beginning of August 2006, target : E26, target_name :  C-reactive protein
+idST, name : OVERLAP, value : 3.0, source : E13, source_name :  beginning of August 2006, target : E27, target_name :  X-ray
+idST, name : OVERLAP, value : 3.0, source : E13, source_name :  beginning of August 2006, target : E28, target_name :  enlarged heart
+idST, name : OVERLAP, value : 3.0, source : E14, source_name :  admitted, target : E15, target_name :  dyspnoea
+idST, name : OVERLAP, value : 3.0, source : E14, source_name :  admitted, target : E16, target_name :  tachypnea
+idST, name : OVERLAP, value : 3.0, source : E14, source_name :  admitted, target : E17, target_name :  tachycardia
+idST, name : OVERLAP, value : 3.0, source : E14, source_name :  admitted, target : E18, target_name :  cyanosis
+idST, name : OVERLAP, value : 3.0, source : E14, source_name :  admitted, target : E19, target_name :  admission
+idST, name : OVERLAP, value : 3.0, source : E14, source_name :  admitted, target : E20, target_name :  blood pressure
+idST, name : OVERLAP, value : 3.0, source : E14, source_name :  admitted, target : E21, target_name :  arterial blood gas
+idST, name : OVERLAP, value : 3.0, source : E14, source_name :  admitted, target : E26, target_name :  C-reactive protein
+idST, name : OVERLAP, value : 3.0, source : E14, source_name :  admitted, target : E27, target_name :  X-ray
+idST, name : OVERLAP, value : 3.0, source : E14, source_name :  admitted, target : E28, target_name :  enlarged heart
+idST, name : OVERLAP, value : 3.0, source : E15, source_name :  dyspnoea, target : E16, target_name :  tachypnea
+idST, name : OVERLAP, value : 3.0, source : E15, source_name :  dyspnoea, target : E17, target_name :  tachycardia
+idST, name : OVERLAP, value : 3.0, source : E15, source_name :  dyspnoea, target : E18, target_name :  cyanosis
+idST, name : OVERLAP, value : 3.0, source : E15, source_name :  dyspnoea, target : E19, target_name :  admission
+idST, name : OVERLAP, value : 3.0, source : E15, source_name :  dyspnoea, target : E20, target_name :  blood pressure
+idST, name : OVERLAP, value : 3.0, source : E15, source_name :  dyspnoea, target : E21, target_name :  arterial blood gas
+idST, name : OVERLAP, value : 3.0, source : E15, source_name :  dyspnoea, target : E26, target_name :  C-reactive protein
+idST, name : OVERLAP, value : 3.0, source : E15, source_name :  dyspnoea, target : E27, target_name :  X-ray
+idST, name : OVERLAP, value : 3.0, source : E15, source_name :  dyspnoea, target : E28, target_name :  enlarged heart
+idST, name : OVERLAP, value : 3.0, source : E16, source_name :  tachypnea, target : E17, target_name :  tachycardia
+idST, name : OVERLAP, value : 3.0, source : E16, source_name :  tachypnea, target : E18, target_name :  cyanosis
+idST, name : OVERLAP, value : 3.0, source : E16, source_name :  tachypnea, target : E19, target_name :  admission
+idST, name : OVERLAP, value : 3.0, source : E16, source_name :  tachypnea, target : E20, target_name :  blood pressure
+idST, name : OVERLAP, value : 3.0, source : E16, source_name :  tachypnea, target : E21, target_name :  arterial blood gas
+idST, name : OVERLAP, value : 3.0, source : E16, source_name :  tachypnea, target : E26, target_name :  C-reactive protein
+idST, name : OVERLAP, value : 3.0, source : E16, source_name :  tachypnea, target : E27, target_name :  X-ray
+idST, name : OVERLAP, value : 3.0, source : E16, source_name :  tachypnea, target : E28, target_name :  enlarged heart
+idST, name : OVERLAP, value : 3.0, source : E17, source_name :  tachycardia, target : E18, target_name :  cyanosis
+idST, name : OVERLAP, value : 3.0, source : E17, source_name :  tachycardia, target : E19, target_name :  admission
+idST, name : OVERLAP, value : 3.0, source : E17, source_name :  tachycardia, target : E20, target_name :  blood pressure
+idST, name : OVERLAP, value : 3.0, source : E17, source_name :  tachycardia, target : E21, target_name :  arterial blood gas
+idST, name : OVERLAP, value : 3.0, source : E17, source_name :  tachycardia, target : E26, target_name :  C-reactive protein
+idST, name : OVERLAP, value : 3.0, source : E17, source_name :  tachycardia, target : E27, target_name :  X-ray
+idST, name : OVERLAP, value : 3.0, source : E17, source_name :  tachycardia, target : E28, target_name :  enlarged heart
+idST, name : OVERLAP, value : 3.0, source : E18, source_name :  cyanosis, target : E19, target_name :  admission
+idST, name : OVERLAP, value : 3.0, source : E18, source_name :  cyanosis, target : E20, target_name :  blood pressure
+idST, name : OVERLAP, value : 3.0, source : E18, source_name :  cyanosis, target : E21, target_name :  arterial blood gas
+idST, name : OVERLAP, value : 3.0, source : E18, source_name :  cyanosis, target : E26, target_name :  C-reactive protein
+idST, name : OVERLAP, value : 3.0, source : E18, source_name :  cyanosis, target : E27, target_name :  X-ray
+idST, name : OVERLAP, value : 3.0, source : E18, source_name :  cyanosis, target : E28, target_name :  enlarged heart
+idST, name : OVERLAP, value : 3.0, source : E19, source_name :  admission, target : E20, target_name :  blood pressure
+idST, name : OVERLAP, value : 3.0, source : E19, source_name :  admission, target : E21, target_name :  arterial blood gas
+idST, name : OVERLAP, value : 3.0, source : E19, source_name :  admission, target : E26, target_name :  C-reactive protein
+idST, name : OVERLAP, value : 3.0, source : E19, source_name :  admission, target : E27, target_name :  X-ray
+idST, name : OVERLAP, value : 3.0, source : E19, source_name :  admission, target : E28, target_name :  enlarged heart
+idST, name : OVERLAP, value : 3.0, source : E20, source_name :  blood pressure, target : E21, target_name :  arterial blood gas
+idST, name : OVERLAP, value : 3.0, source : E20, source_name :  blood pressure, target : E26, target_name :  C-reactive protein
+idST, name : OVERLAP, value : 3.0, source : E20, source_name :  blood pressure, target : E27, target_name :  X-ray
+idST, name : OVERLAP, value : 3.0, source : E20, source_name :  blood pressure, target : E28, target_name :  enlarged heart
+idST, name : OVERLAP, value : 3.0, source : E21, source_name :  arterial blood gas, target : E26, target_name :  C-reactive protein
+idST, name : OVERLAP, value : 3.0, source : E21, source_name :  arterial blood gas, target : E27, target_name :  X-ray
+idST, name : OVERLAP, value : 3.0, source : E21, source_name :  arterial blood gas, target : E28, target_name :  enlarged heart
+idST, name : OVERLAP, value : 3.0, source : E26, source_name :  C-reactive protein, target : E27, target_name :  X-ray
+idST, name : OVERLAP, value : 3.0, source : E26, source_name :  C-reactive protein, target : E28, target_name :  enlarged heart
+idST, name : OVERLAP, value : 3.0, source : E27, source_name :  X-ray, target : E28, target_name :  enlarged heart
+text is: * OVERLAP E29 E30 E31===>idST, name : OVERLAP, value : 3.0, source : E29, source_name :  hemoptysis, target : E30, target_name :  heparin
+idST, name : OVERLAP, value : 3.0, source : E29, source_name :  hemoptysis, target : E31, target_name :  embolism
+idST, name : OVERLAP, value : 3.0, source : E30, source_name :  heparin, target : E31, target_name :  embolism
+text is: * OVERLAP E32 E33===>idST, name : OVERLAP, value : 3.0, source : E32, source_name :  cardiogenic shock, target : E33, target_name :  vasoactive drugs
+text is: * OVERLAP E34 E35===>idST, name : OVERLAP, value : 3.0, source : E34, source_name :  oliguric, target : E35, target_name :  liver enzymes
+text is: * OVERLAP E36 E37 E38 E39 E40 E41 E42 E44 E45 E46 E47 E49 E50===>idST, name : OVERLAP, value : 3.0, source : E36, source_name :  referred, target : E37, target_name :  admission
+idST, name : OVERLAP, value : 3.0, source : E36, source_name :  referred, target : E38, target_name :  blood pressure
+idST, name : OVERLAP, value : 3.0, source : E36, source_name :  referred, target : E39, target_name :  noradrenaline
+idST, name : OVERLAP, value : 3.0, source : E36, source_name :  referred, target : E40, target_name :  heart rate
+idST, name : OVERLAP, value : 3.0, source : E36, source_name :  referred, target : E41, target_name :  temperature
+idST, name : OVERLAP, value : 3.0, source : E36, source_name :  referred, target : E42, target_name :  computed tomography scan
+idST, name : OVERLAP, value : 3.0, source : E36, source_name :  referred, target : E44, target_name :  Echocardiography
+idST, name : OVERLAP, value : 3.0, source : E36, source_name :  referred, target : E45, target_name :  biventricular failure
+idST, name : OVERLAP, value : 3.0, source : E36, source_name :  referred, target : E46, target_name :  left ventricular end diastolic diameter
+idST, name : OVERLAP, value : 3.0, source : E36, source_name :  referred, target : E47, target_name :  ejection fraction
+idST, name : OVERLAP, value : 3.0, source : E36, source_name :  referred, target : E49, target_name :  left ventricular end diastolic pressure
+idST, name : OVERLAP, value : 3.0, source : E36, source_name :  referred, target : E50, target_name :  mitral regurgitation
+idST, name : OVERLAP, value : 3.0, source : E37, source_name :  admission, target : E38, target_name :  blood pressure
+idST, name : OVERLAP, value : 3.0, source : E37, source_name :  admission, target : E39, target_name :  noradrenaline
+idST, name : OVERLAP, value : 3.0, source : E37, source_name :  admission, target : E40, target_name :  heart rate
+idST, name : OVERLAP, value : 3.0, source : E37, source_name :  admission, target : E41, target_name :  temperature
+idST, name : OVERLAP, value : 3.0, source : E37, source_name :  admission, target : E42, target_name :  computed tomography scan
+idST, name : OVERLAP, value : 3.0, source : E37, source_name :  admission, target : E44, target_name :  Echocardiography
+idST, name : OVERLAP, value : 3.0, source : E37, source_name :  admission, target : E45, target_name :  biventricular failure
+idST, name : OVERLAP, value : 3.0, source : E37, source_name :  admission, target : E46, target_name :  left ventricular end diastolic diameter
+idST, name : OVERLAP, value : 3.0, source : E37, source_name :  admission, target : E47, target_name :  ejection fraction
+idST, name : OVERLAP, value : 3.0, source : E37, source_name :  admission, target : E49, target_name :  left ventricular end diastolic pressure
+idST, name : OVERLAP, value : 3.0, source : E37, source_name :  admission, target : E50, target_name :  mitral regurgitation
+idST, name : OVERLAP, value : 3.0, source : E38, source_name :  blood pressure, target : E39, target_name :  noradrenaline
+idST, name : OVERLAP, value : 3.0, source : E38, source_name :  blood pressure, target : E40, target_name :  heart rate
+idST, name : OVERLAP, value : 3.0, source : E38, source_name :  blood pressure, target : E41, target_name :  temperature
+idST, name : OVERLAP, value : 3.0, source : E38, source_name :  blood pressure, target : E42, target_name :  computed tomography scan
+idST, name : OVERLAP, value : 3.0, source : E38, source_name :  blood pressure, target : E44, target_name :  Echocardiography
+idST, name : OVERLAP, value : 3.0, source : E38, source_name :  blood pressure, target : E45, target_name :  biventricular failure
+idST, name : OVERLAP, value : 3.0, source : E38, source_name :  blood pressure, target : E46, target_name :  left ventricular end diastolic diameter
+idST, name : OVERLAP, value : 3.0, source : E38, source_name :  blood pressure, target : E47, target_name :  ejection fraction
+idST, name : OVERLAP, value : 3.0, source : E38, source_name :  blood pressure, target : E49, target_name :  left ventricular end diastolic pressure
+idST, name : OVERLAP, value : 3.0, source : E38, source_name :  blood pressure, target : E50, target_name :  mitral regurgitation
+idST, name : OVERLAP, value : 3.0, source : E39, source_name :  noradrenaline, target : E40, target_name :  heart rate
+idST, name : OVERLAP, value : 3.0, source : E39, source_name :  noradrenaline, target : E41, target_name :  temperature
+idST, name : OVERLAP, value : 3.0, source : E39, source_name :  noradrenaline, target : E42, target_name :  computed tomography scan
+idST, name : OVERLAP, value : 3.0, source : E39, source_name :  noradrenaline, target : E44, target_name :  Echocardiography
+idST, name : OVERLAP, value : 3.0, source : E39, source_name :  noradrenaline, target : E45, target_name :  biventricular failure
+idST, name : OVERLAP, value : 3.0, source : E39, source_name :  noradrenaline, target : E46, target_name :  left ventricular end diastolic diameter
+idST, name : OVERLAP, value : 3.0, source : E39, source_name :  noradrenaline, target : E47, target_name :  ejection fraction
+idST, name : OVERLAP, value : 3.0, source : E39, source_name :  noradrenaline, target : E49, target_name :  left ventricular end diastolic pressure
+idST, name : OVERLAP, value : 3.0, source : E39, source_name :  noradrenaline, target : E50, target_name :  mitral regurgitation
+idST, name : OVERLAP, value : 3.0, source : E40, source_name :  heart rate, target : E41, target_name :  temperature
+idST, name : OVERLAP, value : 3.0, source : E40, source_name :  heart rate, target : E42, target_name :  computed tomography scan
+idST, name : OVERLAP, value : 3.0, source : E40, source_name :  heart rate, target : E44, target_name :  Echocardiography
+idST, name : OVERLAP, value : 3.0, source : E40, source_name :  heart rate, target : E45, target_name :  biventricular failure
+idST, name : OVERLAP, value : 3.0, source : E40, source_name :  heart rate, target : E46, target_name :  left ventricular end diastolic diameter
+idST, name : OVERLAP, value : 3.0, source : E40, source_name :  heart rate, target : E47, target_name :  ejection fraction
+idST, name : OVERLAP, value : 3.0, source : E40, source_name :  heart rate, target : E49, target_name :  left ventricular end diastolic pressure
+idST, name : OVERLAP, value : 3.0, source : E40, source_name :  heart rate, target : E50, target_name :  mitral regurgitation
+idST, name : OVERLAP, value : 3.0, source : E41, source_name :  temperature, target : E42, target_name :  computed tomography scan
+idST, name : OVERLAP, value : 3.0, source : E41, source_name :  temperature, target : E44, target_name :  Echocardiography
+idST, name : OVERLAP, value : 3.0, source : E41, source_name :  temperature, target : E45, target_name :  biventricular failure
+idST, name : OVERLAP, value : 3.0, source : E41, source_name :  temperature, target : E46, target_name :  left ventricular end diastolic diameter
+idST, name : OVERLAP, value : 3.0, source : E41, source_name :  temperature, target : E47, target_name :  ejection fraction
+idST, name : OVERLAP, value : 3.0, source : E41, source_name :  temperature, target : E49, target_name :  left ventricular end diastolic pressure
+idST, name : OVERLAP, value : 3.0, source : E41, source_name :  temperature, target : E50, target_name :  mitral regurgitation
+idST, name : OVERLAP, value : 3.0, source : E42, source_name :  computed tomography scan, target : E44, target_name :  Echocardiography
+idST, name : OVERLAP, value : 3.0, source : E42, source_name :  computed tomography scan, target : E45, target_name :  biventricular failure
+idST, name : OVERLAP, value : 3.0, source : E42, source_name :  computed tomography scan, target : E46, target_name :  left ventricular end diastolic diameter
+idST, name : OVERLAP, value : 3.0, source : E42, source_name :  computed tomography scan, target : E47, target_name :  ejection fraction
+idST, name : OVERLAP, value : 3.0, source : E42, source_name :  computed tomography scan, target : E49, target_name :  left ventricular end diastolic pressure
+idST, name : OVERLAP, value : 3.0, source : E42, source_name :  computed tomography scan, target : E50, target_name :  mitral regurgitation
+idST, name : OVERLAP, value : 3.0, source : E44, source_name :  Echocardiography, target : E45, target_name :  biventricular failure
+idST, name : OVERLAP, value : 3.0, source : E44, source_name :  Echocardiography, target : E46, target_name :  left ventricular end diastolic diameter
+idST, name : OVERLAP, value : 3.0, source : E44, source_name :  Echocardiography, target : E47, target_name :  ejection fraction
+idST, name : OVERLAP, value : 3.0, source : E44, source_name :  Echocardiography, target : E49, target_name :  left ventricular end diastolic pressure
+idST, name : OVERLAP, value : 3.0, source : E44, source_name :  Echocardiography, target : E50, target_name :  mitral regurgitation
+idST, name : OVERLAP, value : 3.0, source : E45, source_name :  biventricular failure, target : E46, target_name :  left ventricular end diastolic diameter
+idST, name : OVERLAP, value : 3.0, source : E45, source_name :  biventricular failure, target : E47, target_name :  ejection fraction
+idST, name : OVERLAP, value : 3.0, source : E45, source_name :  biventricular failure, target : E49, target_name :  left ventricular end diastolic pressure
+idST, name : OVERLAP, value : 3.0, source : E45, source_name :  biventricular failure, target : E50, target_name :  mitral regurgitation
+idST, name : OVERLAP, value : 3.0, source : E46, source_name :  left ventricular end diastolic diameter, target : E47, target_name :  ejection fraction
+idST, name : OVERLAP, value : 3.0, source : E46, source_name :  left ventricular end diastolic diameter, target : E49, target_name :  left ventricular end diastolic pressure
+idST, name : OVERLAP, value : 3.0, source : E46, source_name :  left ventricular end diastolic diameter, target : E50, target_name :  mitral regurgitation
+idST, name : OVERLAP, value : 3.0, source : E47, source_name :  ejection fraction, target : E49, target_name :  left ventricular end diastolic pressure
+idST, name : OVERLAP, value : 3.0, source : E47, source_name :  ejection fraction, target : E50, target_name :  mitral regurgitation
+idST, name : OVERLAP, value : 3.0, source : E49, source_name :  left ventricular end diastolic pressure, target : E50, target_name :  mitral regurgitation
+text is: * OVERLAP E52 E54===>idST, name : OVERLAP, value : 3.0, source : E52, source_name :  liver function, target : E54, target_name :  renal function
+text is: * OVERLAP E56 E57 E58 E59 E60 E61 E62 E63 E65 E66 E67 E68 E69 E70===>idST, name : OVERLAP, value : 3.0, source : E56, source_name :  After three days, target : E57, target_name :  left ventricular systolic function
+idST, name : OVERLAP, value : 3.0, source : E56, source_name :  After three days, target : E58, target_name :  ejection fraction
+idST, name : OVERLAP, value : 3.0, source : E56, source_name :  After three days, target : E59, target_name :  pulmonary hypertension
+idST, name : OVERLAP, value : 3.0, source : E56, source_name :  After three days, target : E60, target_name :  systolic pulmonary pressure
+idST, name : OVERLAP, value : 3.0, source : E56, source_name :  After three days, target : E61, target_name :  cardiomyopathy
+idST, name : OVERLAP, value : 3.0, source : E56, source_name :  After three days, target : E62, target_name :  low output failure
+idST, name : OVERLAP, value : 3.0, source : E56, source_name :  After three days, target : E63, target_name :  failure
+idST, name : OVERLAP, value : 3.0, source : E56, source_name :  After three days, target : E65, target_name :  methylphenidate
+idST, name : OVERLAP, value : 3.0, source : E56, source_name :  After three days, target : E66, target_name :  quetiapine fumarate
+idST, name : OVERLAP, value : 3.0, source : E56, source_name :  After three days, target : E67, target_name :  Screening for infectious pathogens
+idST, name : OVERLAP, value : 3.0, source : E56, source_name :  After three days, target : E68, target_name :  immunological markers
+idST, name : OVERLAP, value : 3.0, source : E56, source_name :  After three days, target : E69, target_name :  iron
+idST, name : OVERLAP, value : 3.0, source : E56, source_name :  After three days, target : E70, target_name :  amyloid deposition
+idST, name : OVERLAP, value : 3.0, source : E57, source_name :  left ventricular systolic function, target : E58, target_name :  ejection fraction
+idST, name : OVERLAP, value : 3.0, source : E57, source_name :  left ventricular systolic function, target : E59, target_name :  pulmonary hypertension
+idST, name : OVERLAP, value : 3.0, source : E57, source_name :  left ventricular systolic function, target : E60, target_name :  systolic pulmonary pressure
+idST, name : OVERLAP, value : 3.0, source : E57, source_name :  left ventricular systolic function, target : E61, target_name :  cardiomyopathy
+idST, name : OVERLAP, value : 3.0, source : E57, source_name :  left ventricular systolic function, target : E62, target_name :  low output failure
+idST, name : OVERLAP, value : 3.0, source : E57, source_name :  left ventricular systolic function, target : E63, target_name :  failure
+idST, name : OVERLAP, value : 3.0, source : E57, source_name :  left ventricular systolic function, target : E65, target_name :  methylphenidate
+idST, name : OVERLAP, value : 3.0, source : E57, source_name :  left ventricular systolic function, target : E66, target_name :  quetiapine fumarate
+idST, name : OVERLAP, value : 3.0, source : E57, source_name :  left ventricular systolic function, target : E67, target_name :  Screening for infectious pathogens
+idST, name : OVERLAP, value : 3.0, source : E57, source_name :  left ventricular systolic function, target : E68, target_name :  immunological markers
+idST, name : OVERLAP, value : 3.0, source : E57, source_name :  left ventricular systolic function, target : E69, target_name :  iron
+idST, name : OVERLAP, value : 3.0, source : E57, source_name :  left ventricular systolic function, target : E70, target_name :  amyloid deposition
+idST, name : OVERLAP, value : 3.0, source : E58, source_name :  ejection fraction, target : E59, target_name :  pulmonary hypertension
+idST, name : OVERLAP, value : 3.0, source : E58, source_name :  ejection fraction, target : E60, target_name :  systolic pulmonary pressure
+idST, name : OVERLAP, value : 3.0, source : E58, source_name :  ejection fraction, target : E61, target_name :  cardiomyopathy
+idST, name : OVERLAP, value : 3.0, source : E58, source_name :  ejection fraction, target : E62, target_name :  low output failure
+idST, name : OVERLAP, value : 3.0, source : E58, source_name :  ejection fraction, target : E63, target_name :  failure
+idST, name : OVERLAP, value : 3.0, source : E58, source_name :  ejection fraction, target : E65, target_name :  methylphenidate
+idST, name : OVERLAP, value : 3.0, source : E58, source_name :  ejection fraction, target : E66, target_name :  quetiapine fumarate
+idST, name : OVERLAP, value : 3.0, source : E58, source_name :  ejection fraction, target : E67, target_name :  Screening for infectious pathogens
+idST, name : OVERLAP, value : 3.0, source : E58, source_name :  ejection fraction, target : E68, target_name :  immunological markers
+idST, name : OVERLAP, value : 3.0, source : E58, source_name :  ejection fraction, target : E69, target_name :  iron
+idST, name : OVERLAP, value : 3.0, source : E58, source_name :  ejection fraction, target : E70, target_name :  amyloid deposition
+idST, name : OVERLAP, value : 3.0, source : E59, source_name :  pulmonary hypertension, target : E60, target_name :  systolic pulmonary pressure
+idST, name : OVERLAP, value : 3.0, source : E59, source_name :  pulmonary hypertension, target : E61, target_name :  cardiomyopathy
+idST, name : OVERLAP, value : 3.0, source : E59, source_name :  pulmonary hypertension, target : E62, target_name :  low output failure
+idST, name : OVERLAP, value : 3.0, source : E59, source_name :  pulmonary hypertension, target : E63, target_name :  failure
+idST, name : OVERLAP, value : 3.0, source : E59, source_name :  pulmonary hypertension, target : E65, target_name :  methylphenidate
+idST, name : OVERLAP, value : 3.0, source : E59, source_name :  pulmonary hypertension, target : E66, target_name :  quetiapine fumarate
+idST, name : OVERLAP, value : 3.0, source : E59, source_name :  pulmonary hypertension, target : E67, target_name :  Screening for infectious pathogens
+idST, name : OVERLAP, value : 3.0, source : E59, source_name :  pulmonary hypertension, target : E68, target_name :  immunological markers
+idST, name : OVERLAP, value : 3.0, source : E59, source_name :  pulmonary hypertension, target : E69, target_name :  iron
+idST, name : OVERLAP, value : 3.0, source : E59, source_name :  pulmonary hypertension, target : E70, target_name :  amyloid deposition
+idST, name : OVERLAP, value : 3.0, source : E60, source_name :  systolic pulmonary pressure, target : E61, target_name :  cardiomyopathy
+idST, name : OVERLAP, value : 3.0, source : E60, source_name :  systolic pulmonary pressure, target : E62, target_name :  low output failure
+idST, name : OVERLAP, value : 3.0, source : E60, source_name :  systolic pulmonary pressure, target : E63, target_name :  failure
+idST, name : OVERLAP, value : 3.0, source : E60, source_name :  systolic pulmonary pressure, target : E65, target_name :  methylphenidate
+idST, name : OVERLAP, value : 3.0, source : E60, source_name :  systolic pulmonary pressure, target : E66, target_name :  quetiapine fumarate
+idST, name : OVERLAP, value : 3.0, source : E60, source_name :  systolic pulmonary pressure, target : E67, target_name :  Screening for infectious pathogens
+idST, name : OVERLAP, value : 3.0, source : E60, source_name :  systolic pulmonary pressure, target : E68, target_name :  immunological markers
+idST, name : OVERLAP, value : 3.0, source : E60, source_name :  systolic pulmonary pressure, target : E69, target_name :  iron
+idST, name : OVERLAP, value : 3.0, source : E60, source_name :  systolic pulmonary pressure, target : E70, target_name :  amyloid deposition
+idST, name : OVERLAP, value : 3.0, source : E61, source_name :  cardiomyopathy, target : E62, target_name :  low output failure
+idST, name : OVERLAP, value : 3.0, source : E61, source_name :  cardiomyopathy, target : E63, target_name :  failure
+idST, name : OVERLAP, value : 3.0, source : E61, source_name :  cardiomyopathy, target : E65, target_name :  methylphenidate
+idST, name : OVERLAP, value : 3.0, source : E61, source_name :  cardiomyopathy, target : E66, target_name :  quetiapine fumarate
+idST, name : OVERLAP, value : 3.0, source : E61, source_name :  cardiomyopathy, target : E67, target_name :  Screening for infectious pathogens
+idST, name : OVERLAP, value : 3.0, source : E61, source_name :  cardiomyopathy, target : E68, target_name :  immunological markers
+idST, name : OVERLAP, value : 3.0, source : E61, source_name :  cardiomyopathy, target : E69, target_name :  iron
+idST, name : OVERLAP, value : 3.0, source : E61, source_name :  cardiomyopathy, target : E70, target_name :  amyloid deposition
+idST, name : OVERLAP, value : 3.0, source : E62, source_name :  low output failure, target : E63, target_name :  failure
+idST, name : OVERLAP, value : 3.0, source : E62, source_name :  low output failure, target : E65, target_name :  methylphenidate
+idST, name : OVERLAP, value : 3.0, source : E62, source_name :  low output failure, target : E66, target_name :  quetiapine fumarate
+idST, name : OVERLAP, value : 3.0, source : E62, source_name :  low output failure, target : E67, target_name :  Screening for infectious pathogens
+idST, name : OVERLAP, value : 3.0, source : E62, source_name :  low output failure, target : E68, target_name :  immunological markers
+idST, name : OVERLAP, value : 3.0, source : E62, source_name :  low output failure, target : E69, target_name :  iron
+idST, name : OVERLAP, value : 3.0, source : E62, source_name :  low output failure, target : E70, target_name :  amyloid deposition
+idST, name : OVERLAP, value : 3.0, source : E63, source_name :  failure, target : E65, target_name :  methylphenidate
+idST, name : OVERLAP, value : 3.0, source : E63, source_name :  failure, target : E66, target_name :  quetiapine fumarate
+idST, name : OVERLAP, value : 3.0, source : E63, source_name :  failure, target : E67, target_name :  Screening for infectious pathogens
+idST, name : OVERLAP, value : 3.0, source : E63, source_name :  failure, target : E68, target_name :  immunological markers
+idST, name : OVERLAP, value : 3.0, source : E63, source_name :  failure, target : E69, target_name :  iron
+idST, name : OVERLAP, value : 3.0, source : E63, source_name :  failure, target : E70, target_name :  amyloid deposition
+idST, name : OVERLAP, value : 3.0, source : E65, source_name :  methylphenidate, target : E66, target_name :  quetiapine fumarate
+idST, name : OVERLAP, value : 3.0, source : E65, source_name :  methylphenidate, target : E67, target_name :  Screening for infectious pathogens
+idST, name : OVERLAP, value : 3.0, source : E65, source_name :  methylphenidate, target : E68, target_name :  immunological markers
+idST, name : OVERLAP, value : 3.0, source : E65, source_name :  methylphenidate, target : E69, target_name :  iron
+idST, name : OVERLAP, value : 3.0, source : E65, source_name :  methylphenidate, target : E70, target_name :  amyloid deposition
+idST, name : OVERLAP, value : 3.0, source : E66, source_name :  quetiapine fumarate, target : E67, target_name :  Screening for infectious pathogens
+idST, name : OVERLAP, value : 3.0, source : E66, source_name :  quetiapine fumarate, target : E68, target_name :  immunological markers
+idST, name : OVERLAP, value : 3.0, source : E66, source_name :  quetiapine fumarate, target : E69, target_name :  iron
+idST, name : OVERLAP, value : 3.0, source : E66, source_name :  quetiapine fumarate, target : E70, target_name :  amyloid deposition
+idST, name : OVERLAP, value : 3.0, source : E67, source_name :  Screening for infectious pathogens, target : E68, target_name :  immunological markers
+idST, name : OVERLAP, value : 3.0, source : E67, source_name :  Screening for infectious pathogens, target : E69, target_name :  iron
+idST, name : OVERLAP, value : 3.0, source : E67, source_name :  Screening for infectious pathogens, target : E70, target_name :  amyloid deposition
+idST, name : OVERLAP, value : 3.0, source : E68, source_name :  immunological markers, target : E69, target_name :  iron
+idST, name : OVERLAP, value : 3.0, source : E68, source_name :  immunological markers, target : E70, target_name :  amyloid deposition
+idST, name : OVERLAP, value : 3.0, source : E69, source_name :  iron, target : E70, target_name :  amyloid deposition
+text is: * OVERLAP E113 E110 E71 E72 E75===>idST, name : OVERLAP, value : 3.0, source : E113, source_name :  After three days, target : E110, target_name :  transferred
+idST, name : OVERLAP, value : 3.0, source : E113, source_name :  After three days, target : E71, target_name :  noradrenaline
+idST, name : OVERLAP, value : 3.0, source : E113, source_name :  After three days, target : E72, target_name :  dobutamine
+idST, name : OVERLAP, value : 3.0, source : E113, source_name :  After three days, target : E75, target_name :  admission
+idST, name : OVERLAP, value : 3.0, source : E110, source_name :  transferred, target : E71, target_name :  noradrenaline
+idST, name : OVERLAP, value : 3.0, source : E110, source_name :  transferred, target : E72, target_name :  dobutamine
+idST, name : OVERLAP, value : 3.0, source : E110, source_name :  transferred, target : E75, target_name :  admission
+idST, name : OVERLAP, value : 3.0, source : E71, source_name :  noradrenaline, target : E72, target_name :  dobutamine
+idST, name : OVERLAP, value : 3.0, source : E71, source_name :  noradrenaline, target : E75, target_name :  admission
+idST, name : OVERLAP, value : 3.0, source : E72, source_name :  dobutamine, target : E75, target_name :  admission
+text is: * OVERLAP E73 E77 E78===>idST, name : OVERLAP, value : 3.0, source : E73, source_name :  intraaortic balloon pump, target : E77, target_name :  nitroprusside
+idST, name : OVERLAP, value : 3.0, source : E73, source_name :  intraaortic balloon pump, target : E78, target_name :  Coronary angiography
+idST, name : OVERLAP, value : 3.0, source : E77, source_name :  nitroprusside, target : E78, target_name :  Coronary angiography
+text is: * OVERLAP E79 E80 E83 E85 E84 E86 E87 E88 E89===>idST, name : OVERLAP, value : 3.0, source : E79, source_name :  biopsy, target : E80, target_name :  myocardial pathology
+idST, name : OVERLAP, value : 3.0, source : E79, source_name :  biopsy, target : E83, target_name :  dialysis
+idST, name : OVERLAP, value : 3.0, source : E79, source_name :  biopsy, target : E85, target_name :  clinical situation
+idST, name : OVERLAP, value : 3.0, source : E79, source_name :  biopsy, target : E84, target_name :  liver function
+idST, name : OVERLAP, value : 3.0, source : E79, source_name :  biopsy, target : E86, target_name :  renal function
+idST, name : OVERLAP, value : 3.0, source : E79, source_name :  biopsy, target : E87, target_name :  diuresis
+idST, name : OVERLAP, value : 3.0, source : E79, source_name :  biopsy, target : E88, target_name :  creatinine
+idST, name : OVERLAP, value : 3.0, source : E79, source_name :  biopsy, target : E89, target_name :  EF
+idST, name : OVERLAP, value : 3.0, source : E80, source_name :  myocardial pathology, target : E83, target_name :  dialysis
+idST, name : OVERLAP, value : 3.0, source : E80, source_name :  myocardial pathology, target : E85, target_name :  clinical situation
+idST, name : OVERLAP, value : 3.0, source : E80, source_name :  myocardial pathology, target : E84, target_name :  liver function
+idST, name : OVERLAP, value : 3.0, source : E80, source_name :  myocardial pathology, target : E86, target_name :  renal function
+idST, name : OVERLAP, value : 3.0, source : E80, source_name :  myocardial pathology, target : E87, target_name :  diuresis
+idST, name : OVERLAP, value : 3.0, source : E80, source_name :  myocardial pathology, target : E88, target_name :  creatinine
+idST, name : OVERLAP, value : 3.0, source : E80, source_name :  myocardial pathology, target : E89, target_name :  EF
+idST, name : OVERLAP, value : 3.0, source : E83, source_name :  dialysis, target : E85, target_name :  clinical situation
+idST, name : OVERLAP, value : 3.0, source : E83, source_name :  dialysis, target : E84, target_name :  liver function
+idST, name : OVERLAP, value : 3.0, source : E83, source_name :  dialysis, target : E86, target_name :  renal function
+idST, name : OVERLAP, value : 3.0, source : E83, source_name :  dialysis, target : E87, target_name :  diuresis
+idST, name : OVERLAP, value : 3.0, source : E83, source_name :  dialysis, target : E88, target_name :  creatinine
+idST, name : OVERLAP, value : 3.0, source : E83, source_name :  dialysis, target : E89, target_name :  EF
+idST, name : OVERLAP, value : 3.0, source : E85, source_name :  clinical situation, target : E84, target_name :  liver function
+idST, name : OVERLAP, value : 3.0, source : E85, source_name :  clinical situation, target : E86, target_name :  renal function
+idST, name : OVERLAP, value : 3.0, source : E85, source_name :  clinical situation, target : E87, target_name :  diuresis
+idST, name : OVERLAP, value : 3.0, source : E85, source_name :  clinical situation, target : E88, target_name :  creatinine
+idST, name : OVERLAP, value : 3.0, source : E85, source_name :  clinical situation, target : E89, target_name :  EF
+idST, name : OVERLAP, value : 3.0, source : E84, source_name :  liver function, target : E86, target_name :  renal function
+idST, name : OVERLAP, value : 3.0, source : E84, source_name :  liver function, target : E87, target_name :  diuresis
+idST, name : OVERLAP, value : 3.0, source : E84, source_name :  liver function, target : E88, target_name :  creatinine
+idST, name : OVERLAP, value : 3.0, source : E84, source_name :  liver function, target : E89, target_name :  EF
+idST, name : OVERLAP, value : 3.0, source : E86, source_name :  renal function, target : E87, target_name :  diuresis
+idST, name : OVERLAP, value : 3.0, source : E86, source_name :  renal function, target : E88, target_name :  creatinine
+idST, name : OVERLAP, value : 3.0, source : E86, source_name :  renal function, target : E89, target_name :  EF
+idST, name : OVERLAP, value : 3.0, source : E87, source_name :  diuresis, target : E88, target_name :  creatinine
+idST, name : OVERLAP, value : 3.0, source : E87, source_name :  diuresis, target : E89, target_name :  EF
+idST, name : OVERLAP, value : 3.0, source : E88, source_name :  creatinine, target : E89, target_name :  EF
+text is: * OVERLAP E90 E91 E93 E92===>idST, name : OVERLAP, value : 3.0, source : E90, source_name :  behavioral problems, target : E91, target_name :  adipose stature
+idST, name : OVERLAP, value : 3.0, source : E90, source_name :  behavioral problems, target : E93, target_name :  denied
+idST, name : OVERLAP, value : 3.0, source : E90, source_name :  behavioral problems, target : E92, target_name :  heart transplant
+idST, name : OVERLAP, value : 3.0, source : E91, source_name :  adipose stature, target : E93, target_name :  denied
+idST, name : OVERLAP, value : 3.0, source : E91, source_name :  adipose stature, target : E92, target_name :  heart transplant
+idST, name : OVERLAP, value : 3.0, source : E93, source_name :  denied, target : E92, target_name :  heart transplant
+text is: * OVERLAP E94 E95===>idST, name : OVERLAP, value : 3.0, source : E94, source_name :  IABP, target : E95, target_name :  26 days
+text is: * OVERLAP E96 E97 E98 E99 E100 E101===>idST, name : OVERLAP, value : 3.0, source : E96, source_name :  after 28 days, target : E97, target_name :  transferred
+idST, name : OVERLAP, value : 3.0, source : E96, source_name :  after 28 days, target : E98, target_name :  liver and renal functions
+idST, name : OVERLAP, value : 3.0, source : E96, source_name :  after 28 days, target : E99, target_name :  angiotensin-converting enzyme (ACE)-inhibitor
+idST, name : OVERLAP, value : 3.0, source : E96, source_name :  after 28 days, target : E100, target_name :  beta-blocker
+idST, name : OVERLAP, value : 3.0, source : E96, source_name :  after 28 days, target : E101, target_name :  diuretics
+idST, name : OVERLAP, value : 3.0, source : E97, source_name :  transferred, target : E98, target_name :  liver and renal functions
+idST, name : OVERLAP, value : 3.0, source : E97, source_name :  transferred, target : E99, target_name :  angiotensin-converting enzyme (ACE)-inhibitor
+idST, name : OVERLAP, value : 3.0, source : E97, source_name :  transferred, target : E100, target_name :  beta-blocker
+idST, name : OVERLAP, value : 3.0, source : E97, source_name :  transferred, target : E101, target_name :  diuretics
+idST, name : OVERLAP, value : 3.0, source : E98, source_name :  liver and renal functions, target : E99, target_name :  angiotensin-converting enzyme (ACE)-inhibitor
+idST, name : OVERLAP, value : 3.0, source : E98, source_name :  liver and renal functions, target : E100, target_name :  beta-blocker
+idST, name : OVERLAP, value : 3.0, source : E98, source_name :  liver and renal functions, target : E101, target_name :  diuretics
+idST, name : OVERLAP, value : 3.0, source : E99, source_name :  angiotensin-converting enzyme (ACE)-inhibitor, target : E100, target_name :  beta-blocker
+idST, name : OVERLAP, value : 3.0, source : E99, source_name :  angiotensin-converting enzyme (ACE)-inhibitor, target : E101, target_name :  diuretics
+idST, name : OVERLAP, value : 3.0, source : E100, source_name :  beta-blocker, target : E101, target_name :  diuretics
+text is: * OVERLAP E103 E104===>idST, name : OVERLAP, value : 3.0, source : E103, source_name :  two weeks, target : E104, target_name :  clinical status
+text is: * OVERLAP E102 E105 E106===>idST, name : OVERLAP, value : 3.0, source : E102, source_name :  discharged, target : E105, target_name :  echocardiography
+idST, name : OVERLAP, value : 3.0, source : E102, source_name :  discharged, target : E106, target_name :  EF
+idST, name : OVERLAP, value : 3.0, source : E105, source_name :  echocardiography, target : E106, target_name :  EF
+text is: * OVERLAP E107 E108 E109 E111===>idST, name : OVERLAP, value : 3.0, source : E107, source_name :  March 2007, target : E108, target_name :  clinical status
+idST, name : OVERLAP, value : 3.0, source : E107, source_name :  March 2007, target : E109, target_name :  function class
+idST, name : OVERLAP, value : 3.0, source : E107, source_name :  March 2007, target : E111, target_name :  EF
+idST, name : OVERLAP, value : 3.0, source : E108, source_name :  clinical status, target : E109, target_name :  function class
+idST, name : OVERLAP, value : 3.0, source : E108, source_name :  clinical status, target : E111, target_name :  EF
+idST, name : OVERLAP, value : 3.0, source : E109, source_name :  function class, target : E111, target_name :  EF

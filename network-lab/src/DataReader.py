@@ -51,17 +51,20 @@ class DataReader(object):
         '''Collection of all final edges'''
         self.Edges = []
         
-        '''group of entity type'''
-        self.group = mdata["type"]
+        '''entity type'''
+        self.type = mdata["type"]
         
-        '''effective group to represent the kernel of network'''
-        self.effective_group = mdata["imp_type"]
+        '''effective entity type represent the kernel of network'''
+        self.effective_type = mdata["imp_type"]
         
         '''relation of entity type'''
         self.relations = mdata["relations"]
         
         '''dictionary to assign diff. color to diff. entity'''
         self.color_dict =  mdata["color_dict"]
+        
+        '''counter to count types of nodes'''
+        self.Count = []
         
         
         
@@ -126,8 +129,6 @@ class DataReader(object):
     '''Peeling out T-data'''
     def set_tdata(self, verbose = 0):
         
-        k = 0
-        
         #-------------------------------------
         '''get ready a debug file'''
         if verbose == 2:
@@ -160,14 +161,11 @@ class DataReader(object):
                 '''pick up term as t_val'''
                 t_val = self.sum_chr_items(item[4:])
                 
-                '''give node a group no'''
-                t_group = k
-                
                 '''update t_dict with {t-id : [type, term]}'''
-                self.t_dict.update({t_key:[t_group,t_type,t_val]})
+                self.t_dict.update({t_key:[t_type,t_val]})
                 
                 '''update node_dict with {t_id: [type,term]} '''
-                self.node_dict.update({t_key:[k,t_type,t_val]})
+                self.node_dict.update({t_key:[t_type,t_val]})
                 
                 #-----------------------------------------------------
                 if verbose !=0:
@@ -175,7 +173,6 @@ class DataReader(object):
                     '''t-node look up'''
                     result = ["id:", t_key,\
                               ", type:", t_type,\
-                              ", group :", t_group, \
                               ", name:",t_val,\
                               ", icolor:",self.color_dict[t_type]]
                 
@@ -193,11 +190,10 @@ class DataReader(object):
                
                 self.Nodes.append({"id":t_key,\
                               "type":t_type,\
-                              "group": t_group, \
                               "name":t_val,\
                               "icolor":self.color_dict[t_type]})
                
-                k = k+1    
+                
                 
                 
                 
@@ -249,23 +245,17 @@ class DataReader(object):
                 e_type = item[1].split(':')[0]
                 
                 '''find type by attaching it to associated t-type'''
-                e_val = self.t_dict[t_key][2]
-                
-                
-                '''find e-group by attaching it to associated t-type'''
-                e_group = self.t_dict[t_key][0]
-                
+                e_val = self.t_dict[t_key][1]
                 
                 '''update e-dictionary'''
-                self.e_dict.update({e_key:[e_group,e_type,e_val]})
+                self.e_dict.update({e_key:[e_type,e_val]})
                 
                 '''update node dictionary'''
-                self.node_dict.update({e_key:[e_group,e_type,e_val]})  
+                self.node_dict.update({e_key:[e_type,e_val]})  
                 
                 '''replace t-nodes by e-nodes when they overlap'''
                 for item in self.Nodes:
                     if item["id"] ==  t_key :
-                        t_group = item['group']
                         self.Nodes.remove(item)
                         
                         
@@ -275,7 +265,6 @@ class DataReader(object):
                     '''t-node look up'''
                     result = ["id:", e_key,\
                               ", type:", e_type,\
-                              ", group :", e_group, \
                               ", name:",e_val,\
                               ", icolor:",self.color_dict[e_type]]
                 
@@ -293,7 +282,6 @@ class DataReader(object):
                 '''collect nodes in node list'''
                 self.Nodes.append({"id":e_key,\
                             "type":e_type,\
-                            "group" : e_group,\
                             "name":e_val,\
                             "icolor":self.color_dict[e_type]})
                 
@@ -345,23 +333,17 @@ class DataReader(object):
                 '''pick up target node id'''
                 to_id = item[3].split(":")[1]
                 
-                '''find source node group'''
-                fm_group = self.node_dict[fm_id][0]
-                
-                '''find target node group'''
-                to_group = self.node_dict[to_id][0]
-                
                 '''find source node type'''
-                fm_type = self.node_dict[fm_id][1]
+                fm_type = self.node_dict[fm_id][0]
                 
                 '''find target node type'''
-                to_type = self.node_dict[to_id][1]
+                to_type = self.node_dict[to_id][0]
                 
                 '''find source name'''
-                fm_name = self.node_dict[fm_id][2]
+                fm_name = self.node_dict[fm_id][1]
                 
                 '''find target name'''
-                to_name = self.node_dict[to_id][2]
+                to_name = self.node_dict[to_id][1]
                 
                 '''update r dictionary'''
                 self.r_dict.update({r_key:[rln,fm_id,to_id]}) 
@@ -373,11 +355,9 @@ class DataReader(object):
                     result = ["id",r_key,\
                             ", name : ",rln,\
                             ", value : ",self.find_edg_value(rln),\
-                            ", source : ", fm_group,\
-                            ", source_id : ",fm_id,\
+                            ", source : ",fm_id,\
                             ", source_name : ",fm_name,\
-                            ", target : ", to_group,\
-                            ", target_id : ",to_id,\
+                            ", target : ",to_id,\
                             ", target_name : ",to_name]
                 
                 
@@ -396,12 +376,9 @@ class DataReader(object):
                 self.Edges.append({"id":r_key,\
                             "name":rln,\
                             "value":self.find_edg_value(rln),\
-                            "source" : fm_group, \
-                            "source_id":fm_id,\
+                            "source":fm_id,\
                             "source_name":fm_name,\
-                          
-                            "target": to_group,\
-                            "target_id":to_id,\
+                            "target":to_id,\
                             "target_name":to_name})  
                            
                            
@@ -463,18 +440,14 @@ class DataReader(object):
                                         fm_id  = ids[i]
                                         '''target id'''
                                         to_id = ids[j]
-                                        '''source group'''
-                                        fm_group = self.node_dict[fm_id][0]
-                                        '''target group'''
-                                        to_group = self.node_dict[to_id][0]
                                         '''source type'''
-                                        fm_type = self.node_dict[fm_id][1]
+                                        fm_type = self.node_dict[fm_id][0]
                                         '''target type'''
-                                        to_type = self.node_dict[to_id][1]
+                                        to_type = self.node_dict[to_id][0]
                                         '''source name'''
-                                        fm_name = self.node_dict[fm_id][2]
+                                        fm_name = self.node_dict[fm_id][1]
                                         '''target name'''
-                                        to_name = self.node_dict[to_id][2]
+                                        to_name = self.node_dict[to_id][1]
                                         
                                         
                                          #-----------------------------------------------------
@@ -484,11 +457,9 @@ class DataReader(object):
                                             result = ["id",r_key,\
                                                 ", name : ",rln,\
                                                 ", value : ",self.find_edg_value(rln),\
-                                                ", source : ", fm_group,\
-                                                ", source_id : ",fm_id,\
+                                                ", source : ",fm_id,\
                                                 ", source_name : ",fm_name,\
-                                                ", target : ", to_group,\
-                                                ", target_id : ",to_id,\
+                                                ", target : ",to_id,\
                                                 ", target_name : ",to_name]
                 
                 
@@ -507,11 +478,9 @@ class DataReader(object):
                                         self.Edges.append({"id":r_key,\
                                                     "name":rln,\
                                                     "value": self.find_edg_value(rln),\
-                                                    "source": fm_group,\
-                                                    "source_id":fm_id,\
+                                                    "source":fm_id,\
                                                     "source_name":fm_name,\
-                                                    "target": to_group,\
-                                                    "target_id":to_id,\
+                                                    "target":to_id,\
                                                     "target_name":to_name})
                                                   
                                                   
@@ -526,22 +495,19 @@ class DataReader(object):
         '''add a central node'''
         self.Nodes.append({"id":"C",\
                             "type":'Disease_disorder',\
-                            "group":1000,\
                             "name":"Center",\
                             "icolor":self.color_dict['Disease_disorder']})
         
         
         '''connect imp-types node to center node'''
         for item in self.Nodes:
-            if item['type'] in self.effective_group:
+            if item['type'] in self.effective_type:
                 self.Edges.append({"id":"C",\
                                     "name":"Center",\
                                     "value": 1,\
-                                    "source": 1000 ,\
                                     "source_name":"cardiomyopathy",\
-                                    "source_id": "C",\
-                                    "target": item['group'],\
-                                    "target_id":item["id"],\
+                                    "source": "C",\
+                                    "target":item["id"],\
                                     "target_name":item['name']}) 
         
     
@@ -582,15 +548,11 @@ class DataReader(object):
         nodes = self.get_nodes(dump=False)
         edges = self.get_edges(dump=False)
         self.center()
-        
         all_data.update({'nodes':nodes,'links':edges })
-        
-        
-        
         if dump:
             self.data_dumper(file_name = fname,data = all_data) 
-        
-        return all_data
+        else:
+            return all_data
     
     
     

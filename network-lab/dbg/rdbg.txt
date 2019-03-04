@@ -1,0 +1,111 @@
+text is: R2 MODIFY Arg1:T8 Arg2:E4===>idR2, name : MODIFY, value : 1.0, source : T8, source_name :  40, target : E4, target_name :  body mass index
+text is: R3 MODIFY Arg1:T32 Arg2:E22===>idR3, name : MODIFY, value : 1.0, source : T32, source_name :  7.45, target : E22, target_name :  pH
+text is: R4 MODIFY Arg1:T36 Arg2:E23===>idR4, name : MODIFY, value : 1.0, source : T36, source_name :  3.55 kPa, target : E23, target_name :  pCO2
+text is: R5 MODIFY Arg1:T37 Arg2:E24===>idR5, name : MODIFY, value : 1.0, source : T37, source_name :  7.76 kPa, target : E24, target_name :  paO2
+text is: R6 MODIFY Arg1:T38 Arg2:E25===>idR6, name : MODIFY, value : 1.0, source : T38, source_name :  −5.1 mmol/l, target : E25, target_name :  BE
+text is: R7 SUB_PROCEDURE Arg1:E22 Arg2:E21===>idR7, name : SUB_PROCEDURE, value : 1.5, source : E22, source_name :  pH, target : E21, target_name :  arterial blood gas
+text is: R8 SUB_PROCEDURE Arg1:E23 Arg2:E21===>idR8, name : SUB_PROCEDURE, value : 1.5, source : E23, source_name :  pCO2, target : E21, target_name :  arterial blood gas
+text is: R9 SUB_PROCEDURE Arg1:E24 Arg2:E21===>idR9, name : SUB_PROCEDURE, value : 1.5, source : E24, source_name :  paO2, target : E21, target_name :  arterial blood gas
+text is: R10 SUB_PROCEDURE Arg1:E25 Arg2:E21===>idR10, name : SUB_PROCEDURE, value : 1.5, source : E25, source_name :  BE, target : E21, target_name :  arterial blood gas
+text is: R11 MODIFY Arg1:T40 Arg2:E26===>idR11, name : MODIFY, value : 1.0, source : T40, source_name :  not elevated, target : E26, target_name :  C-reactive protein
+text is: R12 MODIFY Arg1:T41 Arg2:E27===>idR12, name : MODIFY, value : 1.0, source : T41, source_name :  chest, target : E27, target_name :  X-ray
+text is: R13 MODIFY Arg1:E28 Arg2:E27===>idR13, name : MODIFY, value : 1.0, source : E28, source_name :  enlarged heart, target : E27, target_name :  X-ray
+text is: R14 MODIFY Arg1:T46 Arg2:E30===>idR14, name : MODIFY, value : 1.0, source : T46, source_name :  unfractionated, target : E30, target_name :  heparin
+text is: R15 MODIFY Arg1:T47 Arg2:E31===>idR15, name : MODIFY, value : 1.0, source : T47, source_name :  pulmonary, target : E31, target_name :  embolism
+text is: R16 MODIFY Arg1:T53 Arg2:E35===>idR16, name : MODIFY, value : 1.0, source : T53, source_name :  rising, target : E35, target_name :  liver enzymes
+text is: R17 MODIFY Arg1:T60 Arg2:E39===>idR17, name : MODIFY, value : 1.0, source : T60, source_name :  infusion, target : E39, target_name :  noradrenaline
+text is: R18 MODIFY Arg1:T66 Arg2:E42===>idR18, name : MODIFY, value : 1.0, source : T66, source_name :  thoracic, target : E42, target_name :  computed tomography scan
+text is: R19 MODIFY Arg1:E43 Arg2:E42===>idR19, name : MODIFY, value : 1.0, source : E43, source_name :  did not show pulmonary embolism, target : E42, target_name :  computed tomography scan
+text is: R20 MODIFY Arg1:T70 Arg2:E46===>idR20, name : MODIFY, value : 1.0, source : T70, source_name :  7 cm, target : E46, target_name :  left ventricular end diastolic diameter
+text is: R21 MODIFY Arg1:T73 Arg2:T72===>idR21, name : MODIFY, value : 1.0, source : T73, source_name :  hypokinetic, target : T72, target_name :  left ventricle
+text is: R22 MODIFY Arg1:T74 Arg2:T73===>idR22, name : MODIFY, value : 1.0, source : T74, source_name :  severely, target : T73, target_name :  hypokinetic
+text is: R23 MODIFY Arg1:T79 Arg2:E49===>idR23, name : MODIFY, value : 1.0, source : T79, source_name :  elevated, target : E49, target_name :  left ventricular end diastolic pressure
+text is: R24 MODIFY Arg1:T81 Arg2:E50===>idR24, name : MODIFY, value : 1.0, source : T81, source_name :  moderate, target : E50, target_name :  mitral regurgitation
+text is: R25 MODIFY Arg1:T83 Arg2:E51===>idR25, name : MODIFY, value : 1.0, source : T83, source_name :  Intermittent, target : E51, target_name :  hemodialysis
+text is: R26 IDENTICAL Arg1:E53 Arg2:E51===>idR26, name : IDENTICAL, value : 2.0, source : E53, source_name :  dialysis, target : E51, target_name :  hemodialysis
+text is: R27 MODIFY Arg1:T87 Arg2:E54===>idR27, name : MODIFY, value : 1.0, source : T87, source_name :  deteriorated, target : E54, target_name :  renal function
+text is: R28 MODIFY Arg1:T88 Arg2:E52===>idR28, name : MODIFY, value : 1.0, source : T88, source_name :  improved, target : E52, target_name :  liver function
+text is: R29 MODIFY Arg1:T89 Arg2:T88===>idR29, name : MODIFY, value : 1.0, source : T89, source_name :  slightly, target : T88, target_name :  improved
+text is: R30 SUB_PROCEDURE Arg1:E55 Arg2:E54===>idR30, name : SUB_PROCEDURE, value : 1.5, source : E55, source_name :  creatinine values, target : E54, target_name :  renal function
+text is: R31 MODIFY Arg1:T91 Arg2:E55===>idR31, name : MODIFY, value : 1.0, source : T91, source_name :  increasing, target : E55, target_name :  creatinine values
+text is: R32 MODIFY Arg1:T94 Arg2:E57===>idR32, name : MODIFY, value : 1.0, source : T94, source_name :  worsening, target : E57, target_name :  left ventricular systolic function
+text is: R33 MODIFY Arg1:T96 Arg2:E58===>idR33, name : MODIFY, value : 1.0, source : T96, source_name :  10%–12%, target : E58, target_name :  ejection fraction
+text is: R34 MODIFY Arg1:T99 Arg2:E60===>idR34, name : MODIFY, value : 1.0, source : T99, source_name :  30 mmHg, target : E60, target_name :  systolic pulmonary pressure
+text is: R35 MODIFY Arg1:T101 Arg2:E61===>idR35, name : MODIFY, value : 1.0, source : T101, source_name :  dilated, target : E61, target_name :  cardiomyopathy
+text is: R36 MODIFY Arg1:T104 Arg2:E63===>idR36, name : MODIFY, value : 1.0, source : T104, source_name :  liver, target : E63, target_name :  failure
+text is: R37 MODIFY Arg1:T105 Arg2:E63===>idR37, name : MODIFY, value : 1.0, source : T105, source_name :  renal, target : E63, target_name :  failure
+text is: R38 CAUSE Arg1:E62 Arg2:E63===>idR38, name : CAUSE, value : 3.5, source : E62, source_name :  low output failure, target : E63, target_name :  failure
+text is: R39 IDENTICAL Arg1:E64 Arg2:E61===>idR39, name : IDENTICAL, value : 2.0, source : E64, source_name :  cardiomyopathy, target : E61, target_name :  cardiomyopathy
+text is: R40 MODIFY Arg1:T107 Arg2:E64===>idR40, name : MODIFY, value : 1.0, source : T107, source_name :  drug-induced, target : E64, target_name :  cardiomyopathy
+text is: R41 MODIFY Arg1:T114 Arg2:E70===>idR41, name : MODIFY, value : 1.0, source : T114, source_name :  negative, target : E70, target_name :  amyloid deposition
+text is: R42 MODIFY Arg1:T114 Arg2:E69===>idR42, name : MODIFY, value : 1.0, source : T114, source_name :  negative, target : E69, target_name :  iron
+text is: R43 MODIFY Arg1:T114 Arg2:E68===>idR43, name : MODIFY, value : 1.0, source : T114, source_name :  negative, target : E68, target_name :  immunological markers
+text is: R44 MODIFY Arg1:T114 Arg2:E67===>idR44, name : MODIFY, value : 1.0, source : T114, source_name :  negative, target : E67, target_name :  Screening for infectious pathogens
+text is: R45 MODIFY Arg1:T118 Arg2:E72===>idR45, name : MODIFY, value : 1.0, source : T118, source_name :  infusions, target : E72, target_name :  dobutamine
+text is: R46 MODIFY Arg1:T118 Arg2:E71===>idR46, name : MODIFY, value : 1.0, source : T118, source_name :  infusions, target : E71, target_name :  noradrenaline
+text is: R47 IDENTICAL Arg1:E76 Arg2:E71===>idR47, name : IDENTICAL, value : 2.0, source : E76, source_name :  noradrenaline, target : E71, target_name :  noradrenaline
+text is: R48 MODIFY Arg1:T125 Arg2:E78===>idR48, name : MODIFY, value : 1.0, source : T125, source_name :  normal, target : E78, target_name :  Coronary angiography
+text is: R49 MODIFY Arg1:T127 Arg2:E79===>idR49, name : MODIFY, value : 1.0, source : T127, source_name :  Endomyocardial, target : E79, target_name :  biopsy
+text is: R50 MODIFY Arg1:T128 Arg2:E79===>idR50, name : MODIFY, value : 1.0, source : T128, source_name :  right ventricle, target : E79, target_name :  biopsy
+text is: R51 MODIFY Arg1:E80 Arg2:E79===>idR51, name : MODIFY, value : 1.0, source : E80, source_name :  myocardial pathology, target : E79, target_name :  biopsy
+text is: R52 IDENTICAL Arg1:E81 Arg2:E73===>idR52, name : IDENTICAL, value : 2.0, source : E81, source_name :  IABP, target : E73, target_name :  intraaortic balloon pump
+text is: R53 IDENTICAL Arg1:E82 Arg2:E77===>idR53, name : IDENTICAL, value : 2.0, source : E82, source_name :  nitroprusside, target : E77, target_name :  nitroprusside
+text is: R55 MODIFY Arg1:T134 Arg2:E84===>idR55, name : MODIFY, value : 1.0, source : T134, source_name :  normal, target : E84, target_name :  liver function
+text is: R56 MODIFY Arg1:T136 Arg2:E85===>idR56, name : MODIFY, value : 1.0, source : T136, source_name :  improved, target : E85, target_name :  clinical situation
+text is: R57 MODIFY Arg1:T138 Arg2:E86===>idR57, name : MODIFY, value : 1.0, source : T138, source_name :  improved, target : E86, target_name :  renal function
+text is: R58 MODIFY Arg1:T141 Arg2:E88===>idR58, name : MODIFY, value : 1.0, source : T141, source_name :  798, target : E88, target_name :  creatinine
+text is: R59 MODIFY Arg1:T142 Arg2:E88===>idR59, name : MODIFY, value : 1.0, source : T142, source_name :  98 μmol/l, target : E88, target_name :  creatinine
+text is: R60 MODIFY Arg1:T144 Arg2:E89===>idR60, name : MODIFY, value : 1.0, source : T144, source_name :  15%, target : E89, target_name :  EF
+text is: R61 MODIFY Arg1:T145 Arg2:E89===>idR61, name : MODIFY, value : 1.0, source : T145, source_name :  reduced, target : E89, target_name :  EF
+text is: R62 CAUSE Arg1:E91 Arg2:E93===>idR62, name : CAUSE, value : 3.5, source : E91, source_name :  adipose stature, target : E93, target_name :  denied
+text is: R63 CAUSE Arg1:E90 Arg2:E93===>idR63, name : CAUSE, value : 3.5, source : E90, source_name :  behavioral problems, target : E93, target_name :  denied
+text is: R64 MODIFY Arg1:E93 Arg2:E92===>idR64, name : MODIFY, value : 1.0, source : E93, source_name :  denied, target : E92, target_name :  heart transplant
+text is: R65 IDENTICAL Arg1:E94 Arg2:E73===>idR65, name : IDENTICAL, value : 2.0, source : E94, source_name :  IABP, target : E73, target_name :  intraaortic balloon pump
+text is: R66 MODIFY Arg1:T156 Arg2:E98===>idR66, name : MODIFY, value : 1.0, source : T156, source_name :  normal, target : E98, target_name :  liver and renal functions
+text is: R67 MODIFY Arg1:T163 Arg2:E104===>idR67, name : MODIFY, value : 1.0, source : T163, source_name :  improved, target : E104, target_name :  clinical status
+text is: R68 MODIFY Arg1:T166 Arg2:E106===>idR68, name : MODIFY, value : 1.0, source : T166, source_name :  20%, target : E106, target_name :  EF
+text is: R70 MODIFY Arg1:T171 Arg2:E108===>idR70, name : MODIFY, value : 1.0, source : T171, source_name :  improved, target : E108, target_name :  clinical status
+text is: R71 MODIFY Arg1:T177 Arg2:E111===>idR71, name : MODIFY, value : 1.0, source : T177, source_name :  30%–35%, target : E111, target_name :  EF
+text is: R72 MODIFY Arg1:T29 Arg2:E20===>idR72, name : MODIFY, value : 1.0, source : T29, source_name :  120/80 mmHg, target : E20, target_name :  blood pressure
+text is: R73 MODIFY Arg1:T58 Arg2:E38===>idR73, name : MODIFY, value : 1.0, source : T58, source_name :  90/60 mmHg, target : E38, target_name :  blood pressure
+text is: R74 MODIFY Arg1:T62 Arg2:E40===>idR74, name : MODIFY, value : 1.0, source : T62, source_name :  130/minute, target : E40, target_name :  heart rate
+text is: R75 MODIFY Arg1:T77 Arg2:E47===>idR75, name : MODIFY, value : 1.0, source : T77, source_name :  20%–25%, target : E47, target_name :  ejection fraction
+text is: R76 IDENTICAL Arg1:E2 Arg2:E1===>idR76, name : IDENTICAL, value : 2.0, source : E2, source_name :  ADHD, target : E1, target_name :  attention-deficit hyperactivity disorder
+text is: R77 MODIFY Arg1:T173 Arg2:E109===>idR77, name : MODIFY, value : 1.0, source : T173, source_name :  II, target : E109, target_name :  function class
+text is: R78 MODIFY Arg1:T174 Arg2:E109===>idR78, name : MODIFY, value : 1.0, source : T174, source_name :  New York Heart Association, target : E109, target_name :  function class
+text is: R79 SUB_PROCEDURE Arg1:E112 Arg2:E111===>idR79, name : SUB_PROCEDURE, value : 1.5, source : E112, source_name :  echocardiography, target : E111, target_name :  EF
+text is: R80 MODIFY Arg1:T154 Arg2:E97===>idR80, name : MODIFY, value : 1.0, source : T154, source_name :  our hospital, target : E97, target_name :  transferred
+text is: R81 MODIFY Arg1:T169 Arg2:E105===>idR81, name : MODIFY, value : 1.0, source : T169, source_name :  dilated, target : E105, target_name :  echocardiography
+text is: R69 MODIFY Arg1:T168 Arg2:E105===>idR69, name : MODIFY, value : 1.0, source : T168, source_name :  left ventricle, target : E105, target_name :  echocardiography
+text is: R82 MODIFY Arg1:T55 Arg2:E36===>idR82, name : MODIFY, value : 1.0, source : T55, source_name :  hospital, target : E36, target_name :  referred
+text is: R83 MODIFY Arg1:T21 Arg2:E14===>idR83, name : MODIFY, value : 1.0, source : T21, source_name :  local hospital, target : E14, target_name :  admitted
+text is: R84 IDENTICAL Arg1:E11 Arg2:E10===>idR84, name : IDENTICAL, value : 2.0, source : E11, source_name :  (Concerta®), target : E10, target_name :  methylphenidate
+text is: R85 IDENTICAL Arg1:E8 Arg2:E7===>idR85, name : IDENTICAL, value : 2.0, source : E8, source_name :  (Seroquel®), target : E7, target_name :  quetiapine fumarate
+text is: R86 MODIFY Arg1:T13 Arg2:E7===>idR86, name : MODIFY, value : 1.0, source : T13, source_name :  900 mg daily, target : E7, target_name :  quetiapine fumarate
+text is: R87 MODIFY Arg1:T17 Arg2:E10===>idR87, name : MODIFY, value : 1.0, source : T17, source_name :  54 mg daily, target : E10, target_name :  methylphenidate
+text is: R88 MODIFY Arg1:T64 Arg2:E41===>idR88, name : MODIFY, value : 1.0, source : T64, source_name :  38.4 °C, target : E41, target_name :  temperature
+text is: R89 MODIFY Arg1:T180 Arg2:E102===>idR89, name : MODIFY, value : 1.0, source : T180, source_name :  his home, target : E102, target_name :  discharged
+text is: R1 IDENTICAL Arg1:E5 Arg2:E4===>idR1, name : IDENTICAL, value : 2.0, source : E5, source_name :  BMI, target : E4, target_name :  body mass index
+text is: R90 BEFORE Arg1:E4 Arg2:E7===>idR90, name : BEFORE, value : 0.5, source : E4, source_name :  body mass index, target : E7, target_name :  quetiapine fumarate
+text is: R91 BEFORE Arg1:E9 Arg2:E10===>idR91, name : BEFORE, value : 0.5, source : E9, source_name :  April 2005, target : E10, target_name :  methylphenidate
+text is: R92 BEFORE Arg1:E12 Arg2:E13===>idR92, name : BEFORE, value : 0.5, source : E12, source_name :  September 2005, target : E13, target_name :  beginning of August 2006
+text is: R93 MODIFY Arg1:T22 Arg2:E15===>idR93, name : MODIFY, value : 1.0, source : T22, source_name :  severe, target : E15, target_name :  dyspnoea
+text is: R94 BEFORE Arg1:E28 Arg2:E29===>idR94, name : BEFORE, value : 0.5, source : E28, source_name :  enlarged heart, target : E29, target_name :  hemoptysis
+text is: R95 BEFORE Arg1:E31 Arg2:E32===>idR95, name : BEFORE, value : 0.5, source : E31, source_name :  embolism, target : E32, target_name :  cardiogenic shock
+text is: R96 BEFORE Arg1:E33 Arg2:E34===>idR96, name : BEFORE, value : 0.5, source : E33, source_name :  vasoactive drugs, target : E34, target_name :  oliguric
+text is: R97 BEFORE Arg1:E35 Arg2:E36===>idR97, name : BEFORE, value : 0.5, source : E35, source_name :  liver enzymes, target : E36, target_name :  referred
+text is: R98 IDENTICAL Arg1:E48 Arg2:E47===>idR98, name : IDENTICAL, value : 2.0, source : E48, source_name :  EF, target : E47, target_name :  ejection fraction
+text is: R99 BEFORE Arg1:E50 Arg2:E51===>idR99, name : BEFORE, value : 0.5, source : E50, source_name :  mitral regurgitation, target : E51, target_name :  hemodialysis
+text is: R100 BEFORE Arg1:E51 Arg2:E52===>idR100, name : BEFORE, value : 0.5, source : E51, source_name :  hemodialysis, target : E52, target_name :  liver function
+text is: R101 BEFORE Arg1:E54 Arg2:E56===>idR101, name : BEFORE, value : 0.5, source : E54, source_name :  renal function, target : E56, target_name :  After three days
+text is: R102 BEFORE Arg1:E70 Arg2:E113===>idR102, name : BEFORE, value : 0.5, source : E70, source_name :  amyloid deposition, target : E113, target_name :  After three days
+text is: R103 MODIFY Arg1:T115 Arg2:E110===>idR103, name : MODIFY, value : 1.0, source : T115, source_name :  National Hospital (Rikshospitalet, Oslo), target : E110, target_name :  transferred
+text is: R104 BEFORE Arg1:E75 Arg2:E73===>idR104, name : BEFORE, value : 0.5, source : E75, source_name :  admission, target : E73, target_name :  intraaortic balloon pump
+text is: R105 IDENTICAL Arg1:E74 Arg2:E73===>idR105, name : IDENTICAL, value : 2.0, source : E74, source_name :  IABP, target : E73, target_name :  intraaortic balloon pump
+text is: R106 BEFORE Arg1:E78 Arg2:E79===>idR106, name : BEFORE, value : 0.5, source : E78, source_name :  Coronary angiography, target : E79, target_name :  biopsy
+text is: R54 BEFORE Arg1:E89 Arg2:E90===>idR54, name : BEFORE, value : 0.5, source : E89, source_name :  EF, target : E90, target_name :  behavioral problems
+text is: R107 BEFORE Arg1:E92 Arg2:E94===>idR107, name : BEFORE, value : 0.5, source : E92, source_name :  heart transplant, target : E94, target_name :  IABP
+text is: R108 BEFORE Arg1:E95 Arg2:E96===>idR108, name : BEFORE, value : 0.5, source : E95, source_name :  26 days, target : E96, target_name :  after 28 days
+text is: R109 BEFORE Arg1:E101 Arg2:E103===>idR109, name : BEFORE, value : 0.5, source : E101, source_name :  diuretics, target : E103, target_name :  two weeks
+text is: R110 BEFORE Arg1:E104 Arg2:E102===>idR110, name : BEFORE, value : 0.5, source : E104, source_name :  clinical status, target : E102, target_name :  discharged
+text is: R111 BEFORE Arg1:E106 Arg2:E107===>idR111, name : BEFORE, value : 0.5, source : E106, source_name :  EF, target : E107, target_name :  March 2007
